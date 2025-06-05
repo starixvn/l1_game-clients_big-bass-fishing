@@ -28,6 +28,10 @@
   "options": {
     "params": [
       [
+        "--webp-quality",
+        100
+      ],
+      [
         "--maxrects-heuristics",
         "Best"
       ],
@@ -73,7 +77,7 @@
       ],
       [
         "--alpha-handling",
-        "KeepTransparentPixels"
+        "ReduceBorderArtifacts"
       ],
       [
         "--max-width",
