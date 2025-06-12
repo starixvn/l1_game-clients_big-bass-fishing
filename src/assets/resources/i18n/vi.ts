@@ -281,7 +281,7 @@ export const languages = {
         "you_win_free_spin": "Bạn đã thắng"
     },
     "FruitSamurai": {
-        "game_icon_name": "Chém Hoa Quả",
+        "game_icon_name": "Chém\nHoa Quả",
         "game_name": "Chém Hoa Quả"
     }
 };
