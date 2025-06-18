@@ -1,0 +1,90 @@
+
+export.webp
+size: 465,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eyelid
+  rotate: false
+  xy: 332, 43
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+Flag
+  rotate: true
+  xy: 2, 2
+  size: 159, 260
+  orig: 161, 262
+  offset: 0, 0
+  index: -1
+Group 1
+  rotate: false
+  xy: 2, 163
+  size: 278, 448
+  orig: 279, 449
+  offset: 1, 0
+  index: -1
+Head
+  rotate: false
+  xy: 282, 62
+  size: 172, 215
+  orig: 172, 216
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 613
+  size: 300, 405
+  orig: 306, 405
+  offset: 5, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 379, 43
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+hip-armor-left
+  rotate: true
+  xy: 264, 8
+  size: 52, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: -1
+hip-armor-right
+  rotate: false
+  xy: 304, 688
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+left-hand
+  rotate: false
+  xy: 282, 279
+  size: 181, 332
+  orig: 181, 333
+  offset: 0, 0
+  index: -1
+right-arm 1
+  rotate: false
+  xy: 304, 878
+  size: 104, 140
+  orig: 105, 141
+  offset: 0, 0
+  index: -1
+shoulder-armor-left
+  rotate: true
+  xy: 304, 614
+  size: 72, 79
+  orig: 72, 79
+  offset: 0, 0
+  index: -1
+shoulder-armor-right
+  rotate: true
+  xy: 304, 770
+  size: 106, 97
+  orig: 107, 99
+  offset: 1, 1
+  index: -1

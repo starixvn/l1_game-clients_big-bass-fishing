@@ -1,110 +1,201 @@
 
-effect.png
-size: 1043,542
+effect.webp
+size: 768,1041
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 apple
-  rotate: false
-  xy: 968, 36
+  rotate: true
+  xy: 299, 17
   size: 75, 70
   orig: 75, 70
   offset: 0, 0
   index: -1
 bamboo-left-big
   rotate: false
-  xy: 813, 183
+  xy: 523, 518
   size: 230, 299
   orig: 230, 301
   offset: 0, 1
   index: -1
-bamboo-right-big
-  rotate: false
-  xy: 569, 166
-  size: 242, 316
-  orig: 242, 317
-  offset: 0, 0
-  index: -1
-chest
+bling
   rotate: true
-  xy: 328, 60
-  size: 422, 170
+  xy: 2, 518
+  size: 133, 120
+  orig: 135, 122
+  offset: 1, 1
+  index: -1
+chest1
+  rotate: false
+  xy: 523, 819
+  size: 183, 160
   orig: 422, 170
-  offset: 0, 0
+  offset: 118, 10
+  index: -1
+coin_A_00
+  rotate: false
+  xy: 566, 80
+  size: 124, 124
+  orig: 250, 250
+  offset: 63, 63
+  index: -1
+coin_A_01
+  rotate: false
+  xy: 255, 522
+  size: 114, 129
+  orig: 250, 250
+  offset: 68, 60
+  index: -1
+coin_A_02
+  rotate: false
+  xy: 515, 382
+  size: 78, 134
+  orig: 250, 250
+  offset: 86, 58
+  index: -1
+coin_A_03
+  rotate: false
+  xy: 538, 102
+  size: 26, 134
+  orig: 250, 250
+  offset: 112, 60
+  index: -1
+coin_A_04
+  rotate: true
+  xy: 85, 9
+  size: 83, 137
+  orig: 250, 250
+  offset: 84, 58
+  index: -1
+coin_A_05
+  rotate: false
+  xy: 371, 524
+  size: 126, 127
+  orig: 250, 250
+  offset: 65, 60
   index: -1
 dragon
   rotate: true
-  xy: 583, 34
+  xy: 124, 521
   size: 130, 129
   orig: 132, 131
   offset: 1, 1
   index: -1
+flag
+  rotate: true
+  xy: 128, 94
+  size: 282, 339
+  orig: 282, 339
+  offset: 0, 0
+  index: -1
 freespins
   rotate: true
-  xy: 500, 108
+  xy: 469, 2
   size: 374, 67
   orig: 376, 69
   offset: 1, 1
   index: -1
 general/wood1
   rotate: false
-  xy: 328, 484
+  xy: 2, 981
   size: 715, 58
   orig: 717, 60
   offset: 1, 1
   index: -1
 general/wood2
-  rotate: true
-  xy: 0, 23
+  rotate: false
+  xy: 2, 653
   size: 519, 326
   orig: 521, 328
   offset: 1, 1
   index: -1
-leaf 2
+golds1
   rotate: true
-  xy: 425, 14
+  xy: 46, 94
+  size: 422, 41
+  orig: 422, 170
+  offset: 0, 0
+  index: -1
+golds1b
+  rotate: true
+  xy: 89, 94
+  size: 422, 37
+  orig: 422, 170
+  offset: 0, 5
+  index: -1
+golds1c
+  rotate: true
+  xy: 2, 94
+  size: 422, 42
+  orig: 422, 170
+  offset: 0, 0
+  index: -1
+golds2
+  rotate: true
+  xy: 538, 238
+  size: 142, 39
+  orig: 422, 170
+  offset: 138, 74
+  index: -1
+helmet
+  rotate: true
+  xy: 595, 361
+  size: 155, 170
+  orig: 422, 170
+  offset: 134, 0
+  index: -1
+katana
+  rotate: false
+  xy: 128, 378
+  size: 385, 141
+  orig: 422, 170
+  offset: 19, 0
+  index: -1
+leaf 2
+  rotate: false
+  xy: 708, 888
   size: 44, 43
   orig: 52, 51
   offset: 4, 8
   index: -1
 leaf1
   rotate: false
-  xy: 377, 10
+  xy: 719, 933
   size: 46, 48
   orig: 54, 56
   offset: 4, 8
   index: -1
 orange
   rotate: true
-  xy: 500, 19
+  xy: 2, 5
   size: 87, 81
   orig: 89, 82
   offset: 1, 0
   index: -1
 pine
-  rotate: false
-  xy: 813, 0
+  rotate: true
+  xy: 579, 206
   size: 153, 181
   orig: 155, 182
   offset: 1, 0
   index: -1
 plum
-  rotate: false
-  xy: 968, 108
+  rotate: true
+  xy: 224, 17
   size: 75, 73
   orig: 76, 75
   offset: 1, 1
   index: -1
 plum2
-  rotate: true
-  xy: 714, 91
+  rotate: false
+  xy: 371, 18
   size: 73, 74
   orig: 73, 74
   offset: 0, 0
   index: -1
 straw
   rotate: true
-  xy: 328, 2
+  xy: 719, 983
   size: 56, 47
   orig: 57, 48
   offset: 1, 1
