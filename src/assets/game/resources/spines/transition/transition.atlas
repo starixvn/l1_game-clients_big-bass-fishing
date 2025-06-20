@@ -1,263 +1,257 @@
 
-transition.jpg
-size: 1839,1839
+transition.webp
+size: 1874,1850
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-watervfx/Comp 103
-  rotate: true
-  xy: 684, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 105
-  rotate: true
-  xy: 2, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 107
+energy/Energy_11
   rotate: false
-  xy: 387, 772
-  size: 680, 383
-  orig: 680, 383
+  xy: 2, 1586
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 109
-  rotate: true
-  xy: 1069, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 111
-  rotate: true
-  xy: 1069, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 114
+energy/Energy_12
   rotate: false
-  xy: 2, 387
-  size: 680, 383
-  orig: 680, 383
+  xy: 2, 1322
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 116
-  rotate: true
-  xy: 684, 90
-  size: 680, 383
-  orig: 680, 383
+energy/Energy_13
+  rotate: false
+  xy: 470, 1586
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 118
+energy/Energy_14
+  rotate: false
+  xy: 2, 1058
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_15
+  rotate: false
+  xy: 470, 1322
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_16
+  rotate: false
+  xy: 938, 1586
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_17
+  rotate: false
+  xy: 2, 794
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_18
+  rotate: false
+  xy: 470, 1058
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_19
+  rotate: false
+  xy: 938, 1322
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_20
+  rotate: false
+  xy: 1406, 1586
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_21
+  rotate: false
+  xy: 2, 530
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_22
+  rotate: false
+  xy: 470, 794
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_23
+  rotate: false
+  xy: 938, 1058
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_24
+  rotate: false
+  xy: 1406, 1322
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_25
+  rotate: false
+  xy: 2, 266
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_26
+  rotate: false
+  xy: 470, 530
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_27
+  rotate: false
+  xy: 938, 794
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_28
+  rotate: false
+  xy: 1406, 1058
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_29
   rotate: false
   xy: 2, 2
-  size: 680, 383
-  orig: 680, 383
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 120
+energy/Energy_30
   rotate: false
-  xy: 1069, 90
-  size: 680, 383
-  orig: 680, 383
+  xy: 470, 266
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 122
-  rotate: true
-  xy: 1454, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 124
-  rotate: true
-  xy: 1454, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 176
+energy/Energy_31
   rotate: false
-  xy: 2, 1454
-  size: 680, 383
-  orig: 680, 383
+  xy: 938, 530
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_32
+  rotate: false
+  xy: 1406, 794
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_33
+  rotate: false
+  xy: 470, 2
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_34
+  rotate: false
+  xy: 938, 266
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_35
+  rotate: false
+  xy: 1406, 530
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_36
+  rotate: false
+  xy: 938, 2
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_37
+  rotate: false
+  xy: 1406, 266
+  size: 466, 262
+  orig: 466, 262
+  offset: 0, 0
+  index: -1
+energy/Energy_38
+  rotate: false
+  xy: 1406, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
 
-transition2.jpg
-size: 1839,1839
+transition2.webp
+size: 1850,470
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-watervfx/Comp 127
-  rotate: false
-  xy: 2, 1454
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 129
+energy/Energy_39
   rotate: true
-  xy: 684, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 131
-  rotate: true
-  xy: 2, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 133
-  rotate: false
-  xy: 387, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 135
-  rotate: true
-  xy: 1069, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 137
-  rotate: true
-  xy: 1069, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 140
-  rotate: false
-  xy: 2, 387
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 142
-  rotate: true
-  xy: 684, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 144
-  rotate: false
   xy: 2, 2
-  size: 680, 383
-  orig: 680, 383
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 146
-  rotate: false
-  xy: 1069, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 148
+energy/Energy_40
   rotate: true
-  xy: 1454, 1157
-  size: 680, 383
-  orig: 680, 383
+  xy: 266, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 150
+energy/Energy_41
   rotate: true
-  xy: 1454, 475
-  size: 680, 383
-  orig: 680, 383
+  xy: 530, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-
-transition3.jpg
-size: 1839,1751
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-watervfx/Comp 153
-  rotate: false
-  xy: 2, 1366
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 155
+energy/Energy_42
   rotate: true
-  xy: 684, 1069
-  size: 680, 383
-  orig: 680, 383
+  xy: 794, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 157
+energy/Energy_43
   rotate: true
-  xy: 2, 684
-  size: 680, 383
-  orig: 680, 383
+  xy: 1058, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 159
-  rotate: false
-  xy: 387, 684
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 161
+energy/Energy_44
   rotate: true
-  xy: 1069, 1069
-  size: 680, 383
-  orig: 680, 383
+  xy: 1322, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
-watervfx/Comp 163
+energy/Energy_45
   rotate: true
-  xy: 1069, 387
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 166
-  rotate: false
-  xy: 2, 299
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 168
-  rotate: true
-  xy: 684, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 170
-  rotate: false
-  xy: 1069, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 172
-  rotate: true
-  xy: 1454, 1069
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 174
-  rotate: true
-  xy: 1454, 387
-  size: 680, 383
-  orig: 680, 383
+  xy: 1586, 2
+  size: 466, 262
+  orig: 466, 262
   offset: 0, 0
   index: -1
