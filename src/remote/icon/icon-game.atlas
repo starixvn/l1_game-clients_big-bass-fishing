@@ -1,55 +1,139 @@
 
 icon-game.webp
-size: 1293,882
+size: 1980,444
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+images/Eyelid
+  rotate: false
+  xy: 847, 18
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+images/Flag
+  rotate: true
+  xy: 1400, 3
+  size: 159, 260
+  orig: 161, 262
+  offset: 0, 0
+  index: -1
+images/Group 1
+  rotate: true
+  xy: 1332, 164
+  size: 278, 448
+  orig: 279, 449
+  offset: 1, 0
+  index: -1
+images/Head
+  rotate: false
+  xy: 1782, 84
+  size: 172, 215
+  orig: 172, 216
+  offset: 0, 0
+  index: -1
 images/bg
   rotate: false
-  xy: 897, 218
+  xy: 451, 13
   size: 196, 429
   orig: 196, 429
   offset: 0, 0
   index: -1
+images/body
+  rotate: false
+  xy: 847, 37
+  size: 300, 405
+  orig: 306, 405
+  offset: 5, 0
+  index: -1
 images/circlelight
   rotate: true
-  xy: 2, 2
-  size: 878, 893
-  orig: 878, 893
+  xy: 2, 3
+  size: 439, 447
+  orig: 439, 447
   offset: 0, 0
   index: -1
 images/coin1
-  rotate: true
-  xy: 1040, 80
+  rotate: false
+  xy: 1913, 36
   size: 53, 46
   orig: 60, 46
   offset: 4, 0
   index: -1
 images/coin2
-  rotate: true
-  xy: 1040, 135
+  rotate: false
+  xy: 1756, 3
   size: 81, 79
   orig: 98, 97
   offset: 10, 11
   index: -1
 images/color
-  rotate: true
-  xy: 897, 20
+  rotate: false
+  xy: 1782, 301
   size: 196, 141
   orig: 196, 142
   offset: 0, 0
   index: -1
+images/eyes
+  rotate: false
+  xy: 894, 18
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+images/hip-armor-left
+  rotate: true
+  xy: 1332, 110
+  size: 52, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: -1
+images/hip-armor-right
+  rotate: false
+  xy: 1662, 2
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+images/left-hand
+  rotate: false
+  xy: 1149, 110
+  size: 181, 332
+  orig: 181, 333
+  offset: 0, 0
+  index: -1
 images/lightoverlay
   rotate: false
-  xy: 1095, 218
+  xy: 649, 13
   size: 196, 429
   orig: 196, 429
   offset: 0, 0
   index: -1
-images/samurai
+images/right-arm 1
   rotate: true
-  xy: 897, 649
-  size: 231, 370
-  orig: 238, 370
-  offset: 7, 0
+  xy: 1248, 4
+  size: 104, 140
+  orig: 105, 141
+  offset: 0, 0
+  index: -1
+images/shoulder-armor-left
+  rotate: false
+  xy: 1839, 3
+  size: 72, 79
+  orig: 72, 79
+  offset: 0, 0
+  index: -1
+images/shoulder-armor-right
+  rotate: true
+  xy: 1149, 2
+  size: 106, 97
+  orig: 107, 99
+  offset: 1, 1
+  index: -1
+images/strawberry
+  rotate: false
+  xy: 1662, 85
+  size: 79, 77
+  orig: 110, 110
+  offset: 19, 16
   index: -1
