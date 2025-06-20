@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "TwdgvHaIYlMoByFlteNSXhlO1lI", "spine": "3.8.99", "images": "./images/", "audio": "E:/1-Data/Design/5-Lumiplus/Samurai Fruit/Assets/effects" },
+"skeleton": { "hash": "JSEidHgUiWTcfxD51KuB6zcZRgs", "spine": "3.8.99", "images": "./images/", "audio": "E:/1-Data/Design/5-Lumiplus/Samurai Fruit/Assets/effects" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "apple", "parent": "root", "x": 294.63, "y": -141.82 },
@@ -191,7 +191,8 @@
 	{ "name": "leaf 2", "bone": "leaf 2" },
 	{ "name": "text-bigwin", "bone": "text-bigwin" },
 	{ "name": "bling", "bone": "bling", "blend": "additive" },
-	{ "name": "bling2", "bone": "bling2", "blend": "additive" }
+	{ "name": "bling2", "bone": "bling2", "blend": "additive" },
+	{ "name": "blank", "bone": "root" }
 ],
 "skins": [
 	{
@@ -232,6 +233,9 @@
 					"width": 230,
 					"height": 301
 				}
+			},
+			"blank": {
+				"blank": { "x": 0.5, "y": 0.5, "width": 1, "height": 1 }
 			},
 			"bling": {
 				"bling": { "x": 0.5, "width": 135, "height": 122 }
@@ -491,7 +495,16 @@
 	}
 ],
 "animations": {
-	"hide": {},
+	"hide": {
+		"slots": {
+			"blank": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
 	"loop": {
 		"slots": {
 			"apple": {
@@ -2237,6 +2250,15 @@
 			}
 		]
 	},
-	"show": {}
+	"show": {
+		"slots": {
+			"blank": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
 }
 }
