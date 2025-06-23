@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "NqH7JZI/MeoITY3tW0CyRhkFI/E", "spine": "3.8.99", "x": -35.06, "y": -40.03, "width": 70.65, "height": 80.04 },
+"skeleton": { "hash": "UMTK3G6tV1Ukik+XE6oFrfovNS4", "spine": "3.8.99" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "splash", "parent": "root", "scaleX": 1.3, "scaleY": 1.3 },
@@ -13,13 +13,13 @@
 ],
 "slots": [
 	{ "name": "splash-liquid", "bone": "splash-liquid", "color": "ffffffc7" },
-	{ "name": "plum", "bone": "plum", "attachment": "symbol-3" },
+	{ "name": "plum", "bone": "plum" },
 	{ "name": "symbol-0-bright", "bone": "plum", "color": "ffffffbe" },
 	{ "name": "symbol-0-cut2", "bone": "symbol-0-cut2" },
 	{ "name": "symbol-0-cut1", "bone": "symbol-0-cut1" },
 	{ "name": "blink", "bone": "blink" },
 	{ "name": "splash", "bone": "splash", "color": "0084ffff", "blend": "additive" },
-	{ "name": "plum-mask", "bone": "plum", "attachment": "plum-mask" },
+	{ "name": "plum-mask", "bone": "plum" },
 	{ "name": "highlight", "bone": "highlight", "color": "ffffff95", "blend": "additive" },
 	{ "name": "explode", "bone": "explode", "blend": "additive" }
 ],
@@ -152,8 +152,14 @@
 					{ "time": 0.6333, "color": "ffffff00" }
 				],
 				"attachment": [
+					{ "name": "symbol-3" },
 					{ "time": 0.3667, "name": null },
 					{ "time": 0.6333, "name": "symbol-3" }
+				]
+			},
+			"plum-mask": {
+				"attachment": [
+					{ "name": "plum-mask" }
 				]
 			},
 			"splash": {
@@ -279,6 +285,16 @@
 				"attachment": [
 					{ "name": "highlight" }
 				]
+			},
+			"plum": {
+				"attachment": [
+					{ "name": "symbol-3" }
+				]
+			},
+			"plum-mask": {
+				"attachment": [
+					{ "name": "plum-mask" }
+				]
 			}
 		},
 		"bones": {
@@ -312,6 +328,14 @@
 			}
 		}
 	},
-	"idle": {}
+	"idle": {
+		"slots": {
+			"plum": {
+				"attachment": [
+					{ "name": "symbol-3" }
+				]
+			}
+		}
+	}
 }
 }
