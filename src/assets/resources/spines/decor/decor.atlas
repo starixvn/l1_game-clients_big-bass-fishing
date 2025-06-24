@@ -1,0 +1,48 @@
+
+decor.png
+size: 1315,464
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_fog
+  rotate: false
+  xy: 1, 1
+  size: 516, 462
+  orig: 603, 552
+  offset: 31, 24
+  index: -1
+R_fog
+  rotate: false
+  xy: 960, 98
+  size: 354, 365
+  orig: 540, 429
+  offset: 153, 43
+  index: -1
+bamboo-leaf1
+  rotate: true
+  xy: 1112, 34
+  size: 62, 120
+  orig: 62, 120
+  offset: 0, 0
+  index: -1
+bamboo-leaf2
+  rotate: true
+  xy: 960, 4
+  size: 24, 140
+  orig: 24, 140
+  offset: 0, 0
+  index: -1
+bamboo-leaf3
+  rotate: true
+  xy: 960, 30
+  size: 66, 150
+  orig: 66, 150
+  offset: 0, 0
+  index: -1
+circlelight
+  rotate: false
+  xy: 519, 16
+  size: 439, 447
+  orig: 439, 447
+  offset: 0, 0
+  index: -1

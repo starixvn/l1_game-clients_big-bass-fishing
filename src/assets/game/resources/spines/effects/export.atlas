@@ -1,0 +1,209 @@
+
+export.webp
+size: 1779,458
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+apple
+  rotate: false
+  xy: 1705, 388
+  size: 73, 69
+  orig: 75, 70
+  offset: 1, 0
+  index: -1
+bamboo-left-big
+  rotate: false
+  xy: 1153, 156
+  size: 230, 301
+  orig: 230, 301
+  offset: 0, 0
+  index: -1
+blank
+  rotate: false
+  xy: 1, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bling
+  rotate: false
+  xy: 986, 5
+  size: 135, 122
+  orig: 135, 122
+  offset: 0, 0
+  index: -1
+chest1
+  rotate: true
+  xy: 1385, 272
+  size: 185, 161
+  orig: 422, 170
+  offset: 117, 9
+  index: -1
+coin_A_00
+  rotate: false
+  xy: 858, 1
+  size: 126, 126
+  orig: 250, 250
+  offset: 62, 62
+  index: -1
+coin_A_01
+  rotate: true
+  xy: 1123, 11
+  size: 116, 131
+  orig: 250, 250
+  offset: 67, 59
+  index: -1
+coin_A_02
+  rotate: false
+  xy: 1343, 18
+  size: 80, 136
+  orig: 250, 250
+  offset: 85, 57
+  index: -1
+coin_A_03
+  rotate: true
+  xy: 1, 5
+  size: 28, 136
+  orig: 250, 250
+  offset: 111, 59
+  index: -1
+coin_A_04
+  rotate: false
+  xy: 1256, 15
+  size: 85, 139
+  orig: 250, 250
+  offset: 83, 57
+  index: -1
+coin_A_05
+  rotate: false
+  xy: 1584, 12
+  size: 128, 129
+  orig: 250, 250
+  offset: 64, 59
+  index: -1
+dragon
+  rotate: false
+  xy: 1620, 143
+  size: 132, 130
+  orig: 132, 131
+  offset: 0, 1
+  index: -1
+flag
+  rotate: false
+  xy: 346, 118
+  size: 282, 339
+  orig: 282, 339
+  offset: 0, 0
+  index: -1
+freespins
+  rotate: true
+  xy: 275, 81
+  size: 376, 69
+  orig: 376, 69
+  offset: 0, 0
+  index: -1
+general/wood1
+  rotate: false
+  xy: 139, 8
+  size: 717, 60
+  orig: 717, 60
+  offset: 0, 0
+  index: -1
+general/wood2
+  rotate: false
+  xy: 630, 129
+  size: 521, 328
+  orig: 521, 328
+  offset: 0, 0
+  index: -1
+golds1
+  rotate: true
+  xy: 46, 35
+  size: 422, 42
+  orig: 422, 170
+  offset: 0, 0
+  index: -1
+golds1b
+  rotate: true
+  xy: 90, 35
+  size: 422, 39
+  orig: 422, 170
+  offset: 0, 4
+  index: -1
+golds1c
+  rotate: true
+  xy: 1, 35
+  size: 422, 43
+  orig: 422, 170
+  offset: 0, 0
+  index: -1
+golds2
+  rotate: false
+  xy: 346, 75
+  size: 144, 41
+  orig: 422, 170
+  offset: 137, 73
+  index: -1
+helmet
+  rotate: false
+  xy: 1425, 10
+  size: 157, 170
+  orig: 422, 170
+  offset: 133, 0
+  index: -1
+katana
+  rotate: true
+  xy: 131, 70
+  size: 387, 142
+  orig: 422, 170
+  offset: 18, 0
+  index: -1
+leaf 2
+  rotate: true
+  xy: 732, 77
+  size: 50, 49
+  orig: 52, 51
+  offset: 1, 2
+  index: -1
+leaf1
+  rotate: false
+  xy: 680, 73
+  size: 50, 54
+  orig: 54, 56
+  offset: 3, 2
+  index: -1
+orange
+  rotate: true
+  xy: 1385, 182
+  size: 88, 82
+  orig: 89, 82
+  offset: 1, 0
+  index: -1
+pine
+  rotate: false
+  xy: 1548, 275
+  size: 155, 182
+  orig: 155, 182
+  offset: 0, 0
+  index: -1
+plum
+  rotate: true
+  xy: 1469, 194
+  size: 76, 74
+  orig: 76, 75
+  offset: 0, 0
+  index: -1
+plum2
+  rotate: false
+  xy: 1545, 196
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+straw
+  rotate: true
+  xy: 630, 70
+  size: 57, 48
+  orig: 57, 48
+  offset: 0, 0
+  index: -1
