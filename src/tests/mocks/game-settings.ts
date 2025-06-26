@@ -1,7 +1,7 @@
 export const settings = {
-    id: 126,
-    name: "PoseidonsRealm",
-    tolgeeNamespaces: ["PoseidonsRealm", "cascadingslot"],
+    id: 132,
+    name: "FruitSamurai",
+    tolgeeNamespaces: ["FruitSamurai", "cascadingslot"],
     durations: {
         wholeRound: 14,
         lockingBet: 3,
@@ -14,7 +14,7 @@ export const settings = {
     },
     isMiniGame: false,
     numberOfRoundHistory: 11,
-    observerNamespace: "PoseidonsRealm",
+    observerNamespace: "FruitSamurai",
     validateBalanceWhenBet: true,
 };
 
