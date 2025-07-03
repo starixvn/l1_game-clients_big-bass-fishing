@@ -1,77 +1,113 @@
 {
-"skeleton": { "hash": "7iS42e7JyaS/i9qeS+N6V9iY9j4", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"skeleton": { "hash": "PHzLcNwKTYVMEuP/Ph+U2tzXxmI", "spine": "3.8.99", "images": "./image/", "audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/Mahjong_Wins/spine/btn-spin-spine" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "circle_bg", "parent": "root", "length": 1, "color": "00ff5cff" },
 	{ "name": "hover_glow", "parent": "root", "color": "f3ff00ff" },
 	{ "name": "circle_glow", "parent": "root" },
-	{ "name": "electric", "parent": "root" }
+	{ "name": "extra_particle", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "sea_reflection", "parent": "root" }
 ],
 "slots": [
-	{ "name": "circle_glow", "bone": "circle_glow" },
-	{ "name": "spin_btn", "bone": "circle_bg" },
-	{ "name": "Emerald_glow", "bone": "circle_bg", "blend": "additive" },
+	{ "name": "blue_bg", "bone": "circle_bg" },
+	{ "name": "sea_bg", "bone": "root" },
+	{ "name": "sea_reflection/sea_reflection_00", "bone": "sea_reflection", "blend": "additive" },
+	{ "name": "Ship_Wheel", "bone": "circle_bg" },
+	{ "name": "Ship_Wheel2", "bone": "circle_bg", "blend": "additive" },
+	{ "name": "Ship_Wheel_blur", "bone": "circle_bg" },
+	{ "name": "Ship_Wheel_center", "bone": "root" },
 	{ "name": "hover_circle", "bone": "hover_glow", "blend": "additive" },
 	{ "name": "disable", "bone": "root" },
-	{ "name": "extra_particle/extra_particle_00", "bone": "circle_bg", "blend": "additive" },
-	{ "name": "electric", "bone": "electric", "blend": "additive" }
+	{ "name": "extra_particle/extra_particle_00", "bone": "extra_particle", "blend": "additive" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"Emerald_glow": {
-				"Emerald_glow": { "width": 220, "height": 221 }
+			"Ship_Wheel": {
+				"Ship_Wheel": { "width": 182, "height": 183 }
 			},
-			"circle_glow": {
-				"circle_glow": { "width": 220, "height": 221 }
+			"Ship_Wheel2": {
+				"Ship_Wheel": { "width": 182, "height": 183 }
+			},
+			"Ship_Wheel_blur": {
+				"Ship_Wheel_blur": { "width": 182, "height": 183 }
+			},
+			"Ship_Wheel_center": {
+				"Ship_Wheel_center": { "width": 48, "height": 47 }
+			},
+			"blue_bg": {
+				"blue_bg": { "width": 154, "height": 154 }
 			},
 			"disable": {
-				"disable": { "width": 184, "height": 184 }
-			},
-			"electric": {
-				"extra/Electric _1": { "width": 180, "height": 180 },
-				"extra/Electric _2": { "width": 180, "height": 180 },
-				"extra/Electric _3": { "width": 180, "height": 180 },
-				"extra/Electric _4": { "width": 180, "height": 180 },
-				"extra/Electric _5": { "width": 180, "height": 180 },
-				"extra/Electric _6": { "width": 180, "height": 180 },
-				"extra/Electric _7": { "width": 180, "height": 180 },
-				"extra/Electric _8": { "width": 180, "height": 180 }
+				"disable": { "width": 200, "height": 200 }
 			},
 			"extra_particle/extra_particle_00": {
-				"extra_particle/extra_particle_00": { "width": 1, "height": 1 },
-				"extra_particle/extra_particle_01": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_02": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_03": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_04": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_05": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_06": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_07": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_08": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_09": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_10": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_11": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_12": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_13": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_14": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_15": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_16": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_17": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_18": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_19": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_20": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_21": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_22": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_23": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_24": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_25": { "width": 220, "height": 221 }
+				"extra_particle/extra_particle_00": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_01": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_02": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_03": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_04": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_05": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_06": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_07": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_08": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_09": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_10": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_11": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_12": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_13": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_14": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_15": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_16": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_17": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_18": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_19": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_20": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_21": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_22": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_23": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_24": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_25": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_26": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_27": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_28": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_29": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_30": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_31": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_32": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_33": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_34": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_35": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_36": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_37": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_38": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_39": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_40": { "width": 150, "height": 150 },
+				"extra_particle/extra_particle_41": { "width": 150, "height": 150 }
 			},
 			"hover_circle": {
-				"hover_circle": { "width": 220, "height": 221 }
+				"hover_circle": { "width": 171, "height": 174 }
 			},
-			"spin_btn": {
-				"spin_btn": { "width": 184, "height": 184 }
+			"sea_bg": {
+				"sea_bg": { "width": 108, "height": 108 }
+			},
+			"sea_reflection/sea_reflection_00": {
+				"sea_reflection/sea_reflection_00": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_01": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_02": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_03": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_04": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_05": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_06": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_07": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_08": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_09": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_10": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_11": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_12": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_13": { "width": 171, "height": 174 },
+				"sea_reflection/sea_reflection_14": { "width": 171, "height": 174 }
 			}
 		}
 	}
@@ -92,8 +128,8 @@
 				"color": [
 					{ "color": "ffffff00" },
 					{ "time": 0.1667, "color": "ffffff84", "curve": "stepped" },
-					{ "time": 0.5, "color": "ffffff84" },
-					{ "time": 0.8333, "color": "ffffff00" }
+					{ "time": 0.6, "color": "ffffff84" },
+					{ "time": 0.9333, "color": "ffffff00" }
 				],
 				"attachment": [
 					{ "name": "hover_circle" }
@@ -104,38 +140,104 @@
 			"hover_glow": {
 				"scale": [
 					{ "x": 0.55, "y": 0.55, "curve": 0.139, "c3": 0.328 },
-					{ "time": 0.8333, "x": 1.062, "y": 1.062 }
+					{ "time": 0.9333, "x": 1.413, "y": 1.413 }
 				]
 			}
 		}
 	},
 	"idle": {
 		"slots": {
-			"Emerald_glow": {
+			"Ship_Wheel": {
+				"attachment": [
+					{ "name": "Ship_Wheel" }
+				]
+			},
+			"blue_bg": {
+				"attachment": [
+					{ "name": "blue_bg" }
+				]
+			},
+			"sea_bg": {
+				"attachment": [
+					{ "name": "sea_bg" }
+				]
+			},
+			"sea_reflection/sea_reflection_00": {
 				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "color": "ffffff67", "curve": 0.25, "c3": 0.75 },
-					{ "time": 2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 3, "color": "ffffff67", "curve": 0.25, "c3": 0.75 },
-					{ "time": 4, "color": "ffffff00" }
+					{ "color": "cffaffb4" }
 				],
 				"attachment": [
-					{ "name": "Emerald_glow" }
-				]
-			},
-			"circle_glow": {
-				"attachment": [
-					{ "name": "circle_glow" }
-				]
-			},
-			"spin_btn": {
-				"attachment": [
-					{ "name": "spin_btn" }
+					{ "name": "sea_reflection/sea_reflection_00" },
+					{ "time": 0.0667, "name": "sea_reflection/sea_reflection_01" },
+					{ "time": 0.1333, "name": "sea_reflection/sea_reflection_02" },
+					{ "time": 0.2, "name": "sea_reflection/sea_reflection_03" },
+					{ "time": 0.2667, "name": "sea_reflection/sea_reflection_04" },
+					{ "time": 0.3333, "name": "sea_reflection/sea_reflection_05" },
+					{ "time": 0.4, "name": "sea_reflection/sea_reflection_06" },
+					{ "time": 0.4667, "name": "sea_reflection/sea_reflection_07" },
+					{ "time": 0.5333, "name": "sea_reflection/sea_reflection_08" },
+					{ "time": 0.6, "name": "sea_reflection/sea_reflection_09" },
+					{ "time": 0.6667, "name": "sea_reflection/sea_reflection_10" },
+					{ "time": 0.7333, "name": "sea_reflection/sea_reflection_11" },
+					{ "time": 0.8, "name": "sea_reflection/sea_reflection_12" },
+					{ "time": 0.8667, "name": "sea_reflection/sea_reflection_13" },
+					{ "time": 0.9333, "name": "sea_reflection/sea_reflection_14" },
+					{ "time": 1, "name": "sea_reflection/sea_reflection_00" },
+					{ "time": 1.0667, "name": "sea_reflection/sea_reflection_01" },
+					{ "time": 1.1333, "name": "sea_reflection/sea_reflection_02" },
+					{ "time": 1.2, "name": "sea_reflection/sea_reflection_03" },
+					{ "time": 1.2667, "name": "sea_reflection/sea_reflection_04" },
+					{ "time": 1.3333, "name": "sea_reflection/sea_reflection_05" },
+					{ "time": 1.4, "name": "sea_reflection/sea_reflection_06" },
+					{ "time": 1.4667, "name": "sea_reflection/sea_reflection_07" },
+					{ "time": 1.5333, "name": "sea_reflection/sea_reflection_08" },
+					{ "time": 1.6, "name": "sea_reflection/sea_reflection_09" },
+					{ "time": 1.6667, "name": "sea_reflection/sea_reflection_10" },
+					{ "time": 1.7333, "name": "sea_reflection/sea_reflection_11" },
+					{ "time": 1.8, "name": "sea_reflection/sea_reflection_12" },
+					{ "time": 1.8667, "name": "sea_reflection/sea_reflection_13" },
+					{ "time": 1.9333, "name": "sea_reflection/sea_reflection_14" },
+					{ "time": 2, "name": "sea_reflection/sea_reflection_00" },
+					{ "time": 2.0667, "name": "sea_reflection/sea_reflection_01" },
+					{ "time": 2.1333, "name": "sea_reflection/sea_reflection_02" },
+					{ "time": 2.2, "name": "sea_reflection/sea_reflection_03" },
+					{ "time": 2.2667, "name": "sea_reflection/sea_reflection_04" },
+					{ "time": 2.3333, "name": "sea_reflection/sea_reflection_05" },
+					{ "time": 2.4, "name": "sea_reflection/sea_reflection_06" },
+					{ "time": 2.4667, "name": "sea_reflection/sea_reflection_07" },
+					{ "time": 2.5333, "name": "sea_reflection/sea_reflection_08" },
+					{ "time": 2.6, "name": "sea_reflection/sea_reflection_09" },
+					{ "time": 2.6667, "name": "sea_reflection/sea_reflection_10" },
+					{ "time": 2.7333, "name": "sea_reflection/sea_reflection_11" },
+					{ "time": 2.8, "name": "sea_reflection/sea_reflection_12" },
+					{ "time": 2.8667, "name": "sea_reflection/sea_reflection_13" },
+					{ "time": 2.9333, "name": "sea_reflection/sea_reflection_14" },
+					{ "time": 3, "name": "sea_reflection/sea_reflection_00" },
+					{ "time": 3.0667, "name": "sea_reflection/sea_reflection_01" },
+					{ "time": 3.1333, "name": "sea_reflection/sea_reflection_02" },
+					{ "time": 3.2, "name": "sea_reflection/sea_reflection_03" },
+					{ "time": 3.2667, "name": "sea_reflection/sea_reflection_04" },
+					{ "time": 3.3333, "name": "sea_reflection/sea_reflection_05" },
+					{ "time": 3.4, "name": "sea_reflection/sea_reflection_06" },
+					{ "time": 3.4667, "name": "sea_reflection/sea_reflection_07" },
+					{ "time": 3.5333, "name": "sea_reflection/sea_reflection_08" },
+					{ "time": 3.6, "name": "sea_reflection/sea_reflection_09" },
+					{ "time": 3.6667, "name": "sea_reflection/sea_reflection_10" },
+					{ "time": 3.7333, "name": "sea_reflection/sea_reflection_11" },
+					{ "time": 3.8, "name": "sea_reflection/sea_reflection_12" },
+					{ "time": 3.8667, "name": "sea_reflection/sea_reflection_13" },
+					{ "time": 3.9333, "name": "sea_reflection/sea_reflection_14" },
+					{ "time": 4, "name": "sea_reflection/sea_reflection_07" }
 				]
 			}
 		},
 		"bones": {
 			"circle_bg": {
+				"rotate": [
+					{},
+					{ "time": 2, "angle": 180 },
+					{ "time": 4 }
+				],
 				"scale": [
 					{ "curve": 0.25, "c3": 0.75 },
 					{ "time": 1, "x": 1.04, "y": 1.04, "curve": 0.25, "c3": 0.75 },
@@ -157,31 +259,41 @@
 	},
 	"spin": {
 		"slots": {
-			"Emerald_glow": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.1333, "color": "ffffffad" }
+			"Ship_Wheel_blur": {
+				"attachment": [
+					{ "name": "Ship_Wheel_blur" }
 				]
 			},
-			"circle_glow": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 0.7333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "color": "ffffff00" }
-				],
+			"Ship_Wheel_center": {
 				"attachment": [
-					{ "name": "circle_glow" }
+					{ "name": "Ship_Wheel_center" }
 				]
 			},
-			"spin_btn": {
+			"blue_bg": {
 				"attachment": [
-					{ "name": "spin_btn" }
+					{ "name": "blue_bg" }
+				]
+			},
+			"sea_bg": {
+				"attachment": [
+					{ "name": "sea_bg" }
 				]
 			}
 		},
 		"bones": {
 			"circle_bg": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": 180 },
+					{ "time": 0.1667, "angle": 120 },
+					{ "time": 0.2333 },
+					{ "time": 0.3667, "angle": 180 },
+					{ "time": 0.5 },
+					{ "time": 0.6, "angle": 180 },
+					{ "time": 0.7333 },
+					{ "time": 0.8667, "angle": 180 },
+					{ "time": 1 }
+				],
 				"scale": [
 					{ "curve": 0.164, "c3": 0.381 },
 					{ "time": 0.1, "x": 1.05, "y": 1.05, "curve": 0.164, "c3": 0.381 },
@@ -197,32 +309,58 @@
 	},
 	"spin-extra": {
 		"slots": {
-			"electric": {
+			"extra_particle/extra_particle_00": {
 				"attachment": [
-					{ "name": "extra/Electric _1" },
-					{ "time": 0.0333, "name": "extra/Electric _2" },
-					{ "time": 0.0667, "name": "extra/Electric _3" },
-					{ "time": 0.1, "name": "extra/Electric _4" },
-					{ "time": 0.1333, "name": "extra/Electric _5" },
-					{ "time": 0.1667, "name": "extra/Electric _6" },
-					{ "time": 0.2, "name": "extra/Electric _7" },
-					{ "time": 0.2333, "name": "extra/Electric _8" },
-					{ "time": 0.2667, "name": "extra/Electric _1" },
-					{ "time": 0.3, "name": "extra/Electric _2" },
-					{ "time": 0.3333, "name": "extra/Electric _3" },
-					{ "time": 0.3667, "name": "extra/Electric _4" },
-					{ "time": 0.4, "name": "extra/Electric _5" },
-					{ "time": 0.4333, "name": "extra/Electric _6" },
-					{ "time": 0.4667, "name": "extra/Electric _7" },
-					{ "time": 0.5, "name": "extra/Electric _8" },
-					{ "time": 0.5333, "name": "extra/Electric _1" },
-					{ "time": 0.5667, "name": "extra/Electric _2" },
-					{ "time": 0.6, "name": "extra/Electric _3" },
-					{ "time": 0.6333, "name": "extra/Electric _4" },
-					{ "time": 0.6667, "name": "extra/Electric _5" },
-					{ "time": 0.7, "name": "extra/Electric _6" },
-					{ "time": 0.7333, "name": "extra/Electric _7" },
-					{ "time": 0.7667, "name": "extra/Electric _8" }
+					{ "name": "extra_particle/extra_particle_00" },
+					{ "time": 0.0333, "name": "extra_particle/extra_particle_01" },
+					{ "time": 0.0667, "name": "extra_particle/extra_particle_02" },
+					{ "time": 0.1, "name": "extra_particle/extra_particle_03" },
+					{ "time": 0.1333, "name": "extra_particle/extra_particle_04" },
+					{ "time": 0.1667, "name": "extra_particle/extra_particle_05" },
+					{ "time": 0.2, "name": "extra_particle/extra_particle_06" },
+					{ "time": 0.2333, "name": "extra_particle/extra_particle_07" },
+					{ "time": 0.2667, "name": "extra_particle/extra_particle_08" },
+					{ "time": 0.3, "name": "extra_particle/extra_particle_09" },
+					{ "time": 0.3333, "name": "extra_particle/extra_particle_10" },
+					{ "time": 0.3667, "name": "extra_particle/extra_particle_11" },
+					{ "time": 0.4, "name": "extra_particle/extra_particle_12" },
+					{ "time": 0.4333, "name": "extra_particle/extra_particle_13" },
+					{ "time": 0.4667, "name": "extra_particle/extra_particle_14" },
+					{ "time": 0.5, "name": "extra_particle/extra_particle_15" },
+					{ "time": 0.5333, "name": "extra_particle/extra_particle_16" },
+					{ "time": 0.5667, "name": "extra_particle/extra_particle_17" },
+					{ "time": 0.6, "name": "extra_particle/extra_particle_18" },
+					{ "time": 0.6333, "name": "extra_particle/extra_particle_19" },
+					{ "time": 0.6667, "name": "extra_particle/extra_particle_20" },
+					{ "time": 0.7, "name": "extra_particle/extra_particle_21" },
+					{ "time": 0.7333, "name": "extra_particle/extra_particle_22" },
+					{ "time": 0.7667, "name": "extra_particle/extra_particle_23" },
+					{ "time": 0.8, "name": "extra_particle/extra_particle_24" },
+					{ "time": 0.8333, "name": "extra_particle/extra_particle_25" },
+					{ "time": 0.8667, "name": "extra_particle/extra_particle_26" },
+					{ "time": 0.9, "name": "extra_particle/extra_particle_27" },
+					{ "time": 0.9333, "name": "extra_particle/extra_particle_28" },
+					{ "time": 0.9667, "name": "extra_particle/extra_particle_29" },
+					{ "time": 1, "name": "extra_particle/extra_particle_30" },
+					{ "time": 1.0333, "name": "extra_particle/extra_particle_31" },
+					{ "time": 1.0667, "name": "extra_particle/extra_particle_32" },
+					{ "time": 1.1, "name": "extra_particle/extra_particle_33" },
+					{ "time": 1.1333, "name": "extra_particle/extra_particle_34" },
+					{ "time": 1.1667, "name": "extra_particle/extra_particle_35" },
+					{ "time": 1.2, "name": "extra_particle/extra_particle_36" },
+					{ "time": 1.2333, "name": "extra_particle/extra_particle_37" },
+					{ "time": 1.2667, "name": "extra_particle/extra_particle_38" },
+					{ "time": 1.3, "name": "extra_particle/extra_particle_39" },
+					{ "time": 1.3333, "name": "extra_particle/extra_particle_40" },
+					{ "time": 1.3667, "name": "extra_particle/extra_particle_41" },
+					{ "time": 1.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"extra_particle": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
 				]
 			}
 		}
