@@ -170,7 +170,7 @@
     "defaultSkin": "default",
     "defaultAnimation": "animation",
     "_premultipliedAlpha": false,
-    "_timeScale": 0.6,
+    "_timeScale": 0.5,
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "_sockets": [],
