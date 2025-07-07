@@ -102,7 +102,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 13.785000000000025,
+      "y": 11,
       "z": 0
     },
     "_lrot": {
@@ -231,8 +231,6 @@
       "__id__": 0
     },
     "fileId": "71UOywxZpOFZa9akI6sjyu",
-    "instance": null,
-    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -639,7 +637,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0.65
     },
     "_id": ""
   },
@@ -790,7 +788,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0.65
     },
     "_id": ""
   },

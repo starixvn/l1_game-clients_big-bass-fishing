@@ -44,7 +44,7 @@
           },
           "xOffset": 0,
           "yOffset": 45,
-          "xAdvance": 19
+          "xAdvance": 16
         },
         "46": {
           "rect": {
@@ -55,7 +55,7 @@
           },
           "xOffset": 0,
           "yOffset": 39,
-          "xAdvance": 22
+          "xAdvance": 19
         },
         "48": {
           "rect": {
@@ -66,7 +66,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 44
+          "xAdvance": 41
         },
         "49": {
           "rect": {
@@ -77,7 +77,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 32
+          "xAdvance": 29
         },
         "50": {
           "rect": {
@@ -88,7 +88,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 41
+          "xAdvance": 38
         },
         "51": {
           "rect": {
@@ -99,7 +99,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 39
+          "xAdvance": 36
         },
         "52": {
           "rect": {
@@ -110,7 +110,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 46
+          "xAdvance": 43
         },
         "53": {
           "rect": {
@@ -121,7 +121,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 40
+          "xAdvance": 37
         },
         "54": {
           "rect": {
@@ -132,7 +132,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 42
+          "xAdvance": 39
         },
         "55": {
           "rect": {
@@ -143,7 +143,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 43
+          "xAdvance": 40
         },
         "56": {
           "rect": {
@@ -154,7 +154,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 42
+          "xAdvance": 39
         },
         "57": {
           "rect": {
@@ -165,7 +165,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 42
+          "xAdvance": 39
         }
       },
       "kerningDict": {}
