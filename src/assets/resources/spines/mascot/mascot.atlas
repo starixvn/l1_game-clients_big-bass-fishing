@@ -1,166 +1,166 @@
 
 mascot.webp
-size: 1078,529
+size: 1041,531
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 arm_L
-  rotate: true
-  xy: 811, 415
+  rotate: false
+  xy: 926, 361
   size: 100, 158
   orig: 100, 158
   offset: 0, 0
   index: -1
 arm_R
   rotate: false
-  xy: 901, 18
+  xy: 512, 7
   size: 110, 164
   orig: 110, 164
   offset: 0, 0
   index: -1
 beard01
-  rotate: false
-  xy: 462, 2
+  rotate: true
+  xy: 468, 23
   size: 173, 42
   orig: 173, 42
   offset: 0, 0
   index: -1
 body
   rotate: false
-  xy: 2, 265
+  xy: 0, 158
   size: 259, 250
   orig: 259, 250
   offset: 0, 0
   index: -1
 chin
-  rotate: true
-  xy: 2, 3
+  rotate: false
+  xy: 0, 3
   size: 260, 153
   orig: 450, 802
   offset: 141, 323
   index: -1
 ear
-  rotate: true
-  xy: 248, 10
+  rotate: false
+  xy: 941, 70
   size: 55, 81
   orig: 55, 81
   offset: 0, 0
   index: -1
 eyedrow_L
-  rotate: true
-  xy: 776, 45
+  rotate: false
+  xy: 262, 0
   size: 50, 26
   orig: 50, 26
   offset: 0, 0
   index: -1
 eyedrow_R
-  rotate: true
-  xy: 776, 97
+  rotate: false
+  xy: 913, 153
   size: 72, 38
   orig: 72, 39
   offset: 0, 1
   index: -1
 face
   rotate: false
-  xy: 263, 67
+  xy: 261, 198
   size: 274, 210
   orig: 274, 210
   offset: 0, 0
   index: -1
 fishline
   rotate: true
-  xy: 2, 517
+  xy: 0, 521
   size: 10, 1000
   orig: 50, 1000
   offset: 18, 0
   index: -1
 foot
   rotate: false
-  xy: 539, 171
+  xy: 645, 413
   size: 279, 106
   orig: 279, 106
   offset: 0, 0
   index: -1
 glass
-  rotate: true
-  xy: 157, 4
+  rotate: false
+  xy: 662, 322
   size: 259, 89
   orig: 259, 89
   offset: 0, 0
   index: -1
 hand_L
   rotate: false
-  xy: 263, 397
+  xy: 624, 19
   size: 194, 118
   orig: 450, 802
   offset: 256, 153
   index: -1
 hand_R
   rotate: true
-  xy: 263, 279
+  xy: 0, 410
   size: 109, 643
   orig: 132, 643
   offset: 8, 0
   index: -1
 handel
-  rotate: true
-  xy: 1013, 13
+  rotate: false
+  xy: 913, 193
   size: 90, 55
   orig: 450, 802
   offset: 198, 183
   index: -1
 hat
-  rotate: true
-  xy: 908, 184
+  rotate: false
+  xy: 262, 28
   size: 204, 168
   orig: 279, 168
   offset: 0, 0
   index: -1
 hat_brim
   rotate: false
-  xy: 579, 415
+  xy: 662, 220
   size: 230, 100
   orig: 279, 168
   offset: 48, 46
   index: -1
 hat_brim_back
-  rotate: false
-  xy: 331, 19
+  rotate: true
+  xy: 893, 8
   size: 129, 46
   orig: 279, 168
   offset: 139, 108
   index: -1
 hat_inside
-  rotate: false
-  xy: 539, 46
+  rotate: true
+  xy: 537, 173
   size: 235, 123
   orig: 235, 123
   offset: 0, 0
   index: -1
 mouth
   rotate: true
-  xy: 1004, 390
+  xy: 820, 0
   size: 137, 71
   orig: 137, 71
   offset: 0, 0
   index: -1
 nose
-  rotate: true
-  xy: 1013, 105
+  rotate: false
+  xy: 941, 5
   size: 77, 63
   orig: 77, 69
   offset: 0, 0
   index: -1
 pants
-  rotate: true
-  xy: 820, 28
+  rotate: false
+  xy: 662, 139
   size: 249, 79
   orig: 279, 163
   offset: 15, 84
   index: -1
 shaft
   rotate: false
-  xy: 459, 406
+  xy: 923, 250
   size: 118, 109
   orig: 118, 109
   offset: 0, 0
