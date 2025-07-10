@@ -1,14 +1,5 @@
 {
-"skeleton": {
-	"hash": "te5Coz9EXfZHrYHnPABhJv6/TcA",
-	"spine": "3.8.99",
-	"x": -78.29,
-	"y": -74.09,
-	"width": 165.26,
-	"height": 164.54,
-	"images": "./image/",
-	"audio": ""
-},
+"skeleton": { "hash": "kTktqX4Cxuu+7DgRvTCXZTTqZy4", "spine": "3.8.99", "images": "./image/", "audio": "" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "symbol-7", "parent": "root", "color": "ff0000ff" },
@@ -196,72 +187,55 @@
 	{ "name": "explode_water-5", "parent": "root", "x": 23.82, "y": 68.5, "color": "f7ff00ff" },
 	{ "name": "explode_water-6", "parent": "root", "x": 31.49, "y": -36.11, "color": "f7ff00ff" },
 	{ "name": "explode_water-7", "parent": "root", "x": -25.62, "y": -15.57, "color": "f7ff00ff" },
-	{ "name": "explode_water-8", "parent": "root", "x": -28.45, "y": -1.89, "color": "f7ff00ff" },
-	{ "name": "explode_WD-1", "parent": "root", "rotation": -154.06, "x": 4.71, "y": 16.86, "color": "ff7700ff" },
-	{ "name": "explode_WD-2", "parent": "root", "x": 11.18, "y": 17.06, "color": "ff7800ff" },
-	{ "name": "explode_WD-3", "parent": "root", "x": 11.18, "y": 17.06, "color": "ff7800ff" },
-	{ "name": "explode_WD-4", "parent": "root", "rotation": -154.06, "x": 4.71, "y": 16.86, "color": "ff7700ff" }
+	{ "name": "explode_water-8", "parent": "root", "x": -28.45, "y": -1.89, "color": "f7ff00ff" }
 ],
 "slots": [
-	{ "name": "frame", "bone": "symbol-7", "attachment": "frame" },
-	{ "name": "WaterSplash-4", "bone": "WaterSplash-4", "attachment": "WaterSplash-4" },
-	{ "name": "WaterSplash-12", "bone": "WaterSplash-12", "attachment": "WaterSplash-4" },
-	{ "name": "WaterSplash-8", "bone": "WaterSplash-8", "attachment": "WaterSplash-4" },
-	{ "name": "s7_boat", "bone": "boat", "attachment": "s7_boat" },
-	{ "name": "WaterSplash-2", "bone": "WaterSplash-2", "attachment": "WaterSplash-2" },
-	{ "name": "WaterSplash-10", "bone": "WaterSplash-10", "attachment": "WaterSplash-2" },
-	{ "name": "WaterSplash-6", "bone": "WaterSplash-6", "attachment": "WaterSplash-2" },
-	{ "name": "WaterSplash-1", "bone": "WaterSplash-1", "attachment": "WaterSplash-1" },
-	{ "name": "WaterSplash-9", "bone": "WaterSplash-9", "attachment": "WaterSplash-1" },
-	{ "name": "WaterSplash-5", "bone": "WaterSplash-5", "attachment": "WaterSplash-1" },
-	{ "name": "WaterSplash-13", "bone": "WaterSplash-13", "attachment": "WaterSplash-1" },
-	{ "name": "WaterSplash-3", "bone": "WaterSplash-3", "attachment": "WaterSplash-3" },
-	{ "name": "WaterSplash-11", "bone": "WaterSplash-11", "attachment": "WaterSplash-3" },
-	{ "name": "WaterSplash-7", "bone": "WaterSplash-7", "attachment": "WaterSplash-3" },
-	{ "name": "WaterDrops-4", "bone": "WaterDrops-4", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-16", "bone": "WaterDrops-16", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-15", "bone": "WaterDrops-15", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-6", "bone": "WaterDrops-6", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-18", "bone": "WaterDrops-18", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-13", "bone": "WaterDrops-13", "attachment": "WaterDrops-4" },
-	{ "name": "WaterDrops-5", "bone": "WaterDrops-5", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-17", "bone": "WaterDrops-17", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-14", "bone": "WaterDrops-14", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-7", "bone": "WaterDrops-7", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-19", "bone": "WaterDrops-19", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-12", "bone": "WaterDrops-12", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-8", "bone": "WaterDrops-8", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-20", "bone": "WaterDrops-20", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-11", "bone": "WaterDrops-11", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-9", "bone": "WaterDrops-9", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-21", "bone": "WaterDrops-21", "attachment": "WaterDrops-5" },
-	{ "name": "WaterDrops-10", "bone": "WaterDrops-10", "attachment": "WaterDrops-5" },
-	{ "name": "explode_water-1", "bone": "explode_water-1", "attachment": "explode_water/explode_water-1" },
-	{ "name": "explode_water-2", "bone": "explode_water-2", "attachment": "explode_water/explode_water-2" },
-	{ "name": "explode_water-3", "bone": "explode_water-3", "attachment": "explode_water/explode_water-3" },
-	{ "name": "explode_water-4", "bone": "explode_water-4", "attachment": "explode_water/explode_water-4" },
-	{ "name": "explode_water-5", "bone": "explode_water-5", "attachment": "explode_water/explode_water-5" },
-	{ "name": "explode_water-6", "bone": "explode_water-6", "attachment": "explode_water/explode_water-6" },
-	{ "name": "explode_water-7", "bone": "explode_water-7", "attachment": "explode_water/explode_water-7" },
-	{ "name": "explode_water-8", "bone": "explode_water-8", "attachment": "explode_water/explode_water-8" },
-	{ "name": "explode_WD-1", "bone": "explode_WD-1", "attachment": "explode_WD-1" },
-	{ "name": "explode_WD-4", "bone": "explode_WD-4", "attachment": "explode_WD-1" },
-	{ "name": "explode_WD-2", "bone": "explode_WD-2", "attachment": "explode_WD-2" },
-	{ "name": "explode_WD-3", "bone": "explode_WD-3", "attachment": "explode_WD-2" },
-	{ "name": "WD_path", "bone": "root", "attachment": "WD_path" }
+	{ "name": "frame", "bone": "symbol-7" },
+	{ "name": "WaterSplash-4", "bone": "WaterSplash-4" },
+	{ "name": "WaterSplash-12", "bone": "WaterSplash-12" },
+	{ "name": "WaterSplash-8", "bone": "WaterSplash-8" },
+	{ "name": "s7_boat", "bone": "boat" },
+	{ "name": "WaterSplash-2", "bone": "WaterSplash-2" },
+	{ "name": "WaterSplash-10", "bone": "WaterSplash-10" },
+	{ "name": "WaterSplash-6", "bone": "WaterSplash-6" },
+	{ "name": "WaterSplash-1", "bone": "WaterSplash-1" },
+	{ "name": "WaterSplash-9", "bone": "WaterSplash-9" },
+	{ "name": "WaterSplash-5", "bone": "WaterSplash-5" },
+	{ "name": "WaterSplash-13", "bone": "WaterSplash-13" },
+	{ "name": "WaterSplash-3", "bone": "WaterSplash-3" },
+	{ "name": "WaterSplash-11", "bone": "WaterSplash-11" },
+	{ "name": "WaterSplash-7", "bone": "WaterSplash-7" },
+	{ "name": "WaterDrops-4", "bone": "WaterDrops-4" },
+	{ "name": "WaterDrops-16", "bone": "WaterDrops-16" },
+	{ "name": "WaterDrops-15", "bone": "WaterDrops-15" },
+	{ "name": "WaterDrops-6", "bone": "WaterDrops-6" },
+	{ "name": "WaterDrops-18", "bone": "WaterDrops-18" },
+	{ "name": "WaterDrops-13", "bone": "WaterDrops-13" },
+	{ "name": "WaterDrops-5", "bone": "WaterDrops-5" },
+	{ "name": "WaterDrops-17", "bone": "WaterDrops-17" },
+	{ "name": "WaterDrops-14", "bone": "WaterDrops-14" },
+	{ "name": "WaterDrops-7", "bone": "WaterDrops-7" },
+	{ "name": "WaterDrops-19", "bone": "WaterDrops-19" },
+	{ "name": "WaterDrops-12", "bone": "WaterDrops-12" },
+	{ "name": "WaterDrops-8", "bone": "WaterDrops-8" },
+	{ "name": "WaterDrops-20", "bone": "WaterDrops-20" },
+	{ "name": "WaterDrops-11", "bone": "WaterDrops-11" },
+	{ "name": "WaterDrops-9", "bone": "WaterDrops-9" },
+	{ "name": "WaterDrops-21", "bone": "WaterDrops-21" },
+	{ "name": "WaterDrops-10", "bone": "WaterDrops-10" },
+	{ "name": "explode_water-1", "bone": "explode_water-1" },
+	{ "name": "explode_water-2", "bone": "explode_water-2" },
+	{ "name": "explode_water-3", "bone": "explode_water-3" },
+	{ "name": "explode_water-4", "bone": "explode_water-4" },
+	{ "name": "explode_water-5", "bone": "explode_water-5" },
+	{ "name": "explode_water-6", "bone": "explode_water-6" },
+	{ "name": "explode_water-7", "bone": "explode_water-7" },
+	{ "name": "explode_water-8", "bone": "explode_water-8" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"WD_path": {
-				"WD_path": {
-					"type": "path",
-					"lengths": [ 71.64, 149.29, 242.3, 315.88, 348.76 ],
-					"vertexCount": 15,
-					"vertices": [ -4.6, -19.99, -17.21, -26.12, -38.7, -36.58, -61.05, -1.45, -58.67, 20.41, -56.7, 38.41, -42.18, 63.44, -4.24, 67.5, 27.77, 70.93, 55.54, 48.33, 53.85, 10.26, 52.52, -19.77, 25.65, -36.27, 7.89, -41.63, -9.88, -46.99 ]
-				}
-			},
 			"WaterDrops-4": {
 				"WaterDrops-4": { "x": 6.38, "y": -0.61, "rotation": -33.22, "width": 12, "height": 11 }
 			},
@@ -354,18 +328,6 @@
 			},
 			"WaterSplash-13": {
 				"WaterSplash-1": { "x": 29.14, "y": 10.87, "width": 64, "height": 23 }
-			},
-			"explode_WD-1": {
-				"explode_WD-1": { "x": -4.24, "y": -11.41, "width": 17, "height": 30 }
-			},
-			"explode_WD-2": {
-				"explode_WD-2": { "x": 1.29, "y": -10.65, "width": 14, "height": 23 }
-			},
-			"explode_WD-3": {
-				"explode_WD-2": { "x": 1.29, "y": -10.65, "width": 14, "height": 23 }
-			},
-			"explode_WD-4": {
-				"explode_WD-1": { "x": -4.24, "y": -11.41, "width": 17, "height": 30 }
 			},
 			"explode_water-1": {
 				"explode_water/explode_water-1": { "x": 3.31, "y": 22.85, "width": 28, "height": 48 }
@@ -403,228 +365,38 @@
 "animations": {
 	"explode": {
 		"slots": {
-			"WaterDrops-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-8": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-9": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-10": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-11": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-12": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-13": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-14": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-15": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-16": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-17": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-18": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-19": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-20": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-21": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-1": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-8": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-9": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-10": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-11": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-12": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-13": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-1": {
-				"color": [
-					{ "time": 0.3667, "color": "ffffffff" },
-					{ "time": 0.4333, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-2": {
-				"color": [
-					{ "time": 0.4667, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-3": {
-				"color": [
-					{ "time": 0.4667, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-4": {
-				"color": [
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_water-1": {
-				"attachment": [
-					{ "time": 0.0667, "name": null }
-				]
-			},
 			"explode_water-2": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.0667, "name": "explode_water/explode_water-2" },
 					{ "time": 0.1667, "name": null }
 				]
 			},
 			"explode_water-3": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.1667, "name": "explode_water/explode_water-3" },
 					{ "time": 0.2333, "name": null }
 				]
 			},
 			"explode_water-4": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.2333, "name": "explode_water/explode_water-4" },
 					{ "time": 0.3, "name": null }
 				]
 			},
 			"explode_water-5": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.3, "name": "explode_water/explode_water-5" },
 					{ "time": 0.4, "name": null }
 				]
 			},
 			"explode_water-6": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.4, "name": "explode_water/explode_water-6" },
 					{ "time": 0.4333, "name": null }
 				]
 			},
 			"explode_water-7": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.4333, "name": "explode_water/explode_water-7" },
 					{ "time": 0.5, "name": null }
 				]
@@ -635,7 +407,6 @@
 					{ "time": 0.5667, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.5, "name": "explode_water/explode_water-8" }
 				]
 			},
@@ -644,6 +415,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "frame" }
 				]
 			},
 			"s7_boat": {
@@ -651,6 +425,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "s7_boat" }
 				]
 			}
 		},
@@ -772,99 +549,11 @@
 					{ "time": 0.5667, "x": 0.545, "y": 0.545 }
 				]
 			},
-			"explode_WD-1": {
-				"rotate": [
-					{ "angle": -7.09 },
-					{ "time": 0.1667, "angle": -59.03 },
-					{ "time": 0.2667, "angle": -158.32 },
-					{ "time": 0.3667, "angle": 155.25 },
-					{ "time": 0.4333, "angle": 100.81 }
-				],
-				"translate": [
-					{ "x": -47.38, "y": -30.17 },
-					{ "time": 0.1667, "x": -30.46, "y": 50.48 },
-					{ "time": 0.2667, "x": 55.55, "y": 32.15 },
-					{ "time": 0.3667, "x": 53.02, "y": -49.63 },
-					{ "time": 0.4333, "x": 12.13, "y": -74.45 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0 },
-					{ "time": 0.2667 }
-				]
-			},
-			"explode_WD-2": {
-				"rotate": [
-					{ "angle": -19.74, "curve": "stepped" },
-					{ "time": 0.2333, "angle": -19.74 },
-					{ "time": 0.3667, "angle": -58.25 },
-					{ "time": 0.5, "angle": -112.24 },
-					{ "time": 0.6, "angle": -159.92 }
-				],
-				"translate": [
-					{ "x": 30.16, "y": -18.56, "curve": "stepped" },
-					{ "time": 0.2333, "x": 30.16, "y": -18.56 },
-					{ "time": 0.3667, "x": 24.59, "y": -55.22 },
-					{ "time": 0.5, "x": -40.83, "y": -56.61 },
-					{ "time": 0.6, "x": -70.53, "y": -26.91 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2333, "x": 0, "y": 0 },
-					{ "time": 0.5 }
-				]
-			},
 			"symbol-7": {
 				"scale": [
 					{ "time": 0.1333, "curve": 0.25, "c3": 0.315 },
 					{ "time": 0.2333, "x": 1.2, "y": 1.2, "curve": 0.072, "c3": 0.32 },
 					{ "time": 0.5, "x": 0.5, "y": 0.5 }
-				]
-			},
-			"explode_WD-3": {
-				"rotate": [
-					{ "angle": -167.38, "curve": "stepped" },
-					{ "time": 0.2667, "angle": -167.38 },
-					{ "time": 0.4, "angle": 93.37 },
-					{ "time": 0.4333, "angle": 13.96 },
-					{ "time": 0.4667, "angle": -16.35 },
-					{ "time": 0.5, "angle": -2.33 },
-					{ "time": 0.6, "angle": -81.15 }
-				],
-				"translate": [
-					{ "x": -66.64, "y": -29.01, "curve": "stepped" },
-					{ "time": 0.2667, "x": -66.64, "y": -29.01 },
-					{ "time": 0.4, "x": -16.59, "y": 24.89 },
-					{ "time": 0.5, "x": 38.96, "y": -18.01 },
-					{ "time": 0.6, "x": 16.41, "y": -51.01 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2667, "x": 0, "y": 0 },
-					{ "time": 0.5 }
-				]
-			},
-			"explode_WD-4": {
-				"rotate": [
-					{ "angle": 109.42, "curve": "stepped" },
-					{ "time": 0.2333, "angle": 109.42 },
-					{ "time": 0.3333, "angle": 26.8 },
-					{ "time": 0.4, "angle": -23.01 },
-					{ "time": 0.4333, "angle": -5.92 },
-					{ "time": 0.5, "angle": -56.3 },
-					{ "time": 0.6, "angle": -128.63 }
-				],
-				"translate": [
-					{ "x": 25.21, "y": -61.73, "curve": "stepped" },
-					{ "time": 0.2333, "x": 25.21, "y": -61.73 },
-					{ "time": 0.3333, "x": -51.06, "y": -58.58 },
-					{ "time": 0.4333, "x": -69.99, "y": 14.01 },
-					{ "time": 0.5, "x": -33.17, "y": 36.1 },
-					{ "time": 0.6, "x": 35.73, "y": 30.84 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2333, "x": 0, "y": 0 },
-					{ "time": 0.4 }
 				]
 			}
 		}
@@ -875,108 +564,162 @@
 				"color": [
 					{ "time": 0.3, "color": "ffffffff" },
 					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-5": {
 				"color": [
 					{ "time": 0.2333, "color": "ffffffff" },
 					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-6": {
 				"color": [
 					{ "time": 0.2333, "color": "ffffffff" },
 					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-7": {
 				"color": [
 					{ "time": 0.3667, "color": "ffffffff" },
 					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-8": {
 				"color": [
 					{ "time": 0.3667, "color": "ffffffff" },
 					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-9": {
 				"color": [
 					{ "time": 0.4333, "color": "ffffffff" },
 					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-10": {
 				"color": [
 					{ "time": 1.0667, "color": "ffffffff" },
 					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-11": {
 				"color": [
 					{ "time": 1.0333, "color": "ffffffff" },
 					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-12": {
 				"color": [
 					{ "time": 1.0333, "color": "ffffffff" },
 					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-13": {
 				"color": [
 					{ "time": 0.9, "color": "ffffffff" },
 					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-14": {
 				"color": [
 					{ "time": 0.9667, "color": "ffffffff" },
 					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-15": {
 				"color": [
 					{ "time": 1, "color": "ffffffff" },
 					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-16": {
 				"color": [
 					{ "time": 0.6, "color": "ffffffff" },
 					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-17": {
 				"color": [
 					{ "time": 0.5333, "color": "ffffffff" },
 					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-18": {
 				"color": [
 					{ "time": 0.5333, "color": "ffffffff" },
 					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-4" }
 				]
 			},
 			"WaterDrops-19": {
 				"color": [
 					{ "time": 0.6667, "color": "ffffffff" },
 					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-20": {
 				"color": [
 					{ "time": 0.6667, "color": "ffffffff" },
 					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterDrops-21": {
 				"color": [
 					{ "time": 0.7, "color": "ffffffff" },
 					{ "time": 0.8, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterDrops-5" }
 				]
 			},
 			"WaterSplash-1": {
@@ -986,6 +729,9 @@
 					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.3, "color": "ffffffff" },
 					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-1" }
 				]
 			},
 			"WaterSplash-2": {
@@ -995,6 +741,9 @@
 					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.3333, "color": "ffffffff" },
 					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-2" }
 				]
 			},
 			"WaterSplash-3": {
@@ -1004,6 +753,9 @@
 					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.3667, "color": "ffffffff" },
 					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-3" }
 				]
 			},
 			"WaterSplash-4": {
@@ -1013,6 +765,9 @@
 					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.3, "color": "ffffffff" },
 					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-4" }
 				]
 			},
 			"WaterSplash-5": {
@@ -1022,6 +777,9 @@
 					{ "time": 0.5667, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.6667, "color": "ffffffff" },
 					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-1" }
 				]
 			},
 			"WaterSplash-6": {
@@ -1031,6 +789,9 @@
 					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.7, "color": "ffffffff" },
 					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-2" }
 				]
 			},
 			"WaterSplash-7": {
@@ -1040,6 +801,9 @@
 					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.7333, "color": "ffffffff" },
 					{ "time": 0.8, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-3" }
 				]
 			},
 			"WaterSplash-8": {
@@ -1049,6 +813,9 @@
 					{ "time": 0.5667, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.6667, "color": "ffffffff" },
 					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-4" }
 				]
 			},
 			"WaterSplash-9": {
@@ -1058,6 +825,9 @@
 					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.3, "color": "ffffffff" },
 					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-1" }
 				]
 			},
 			"WaterSplash-10": {
@@ -1067,6 +837,9 @@
 					{ "time": 0.9333, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 1.0333, "color": "ffffffff" },
 					{ "time": 1.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-2" }
 				]
 			},
 			"WaterSplash-11": {
@@ -1076,6 +849,9 @@
 					{ "time": 0.9667, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 1.0667, "color": "ffffffff" },
 					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-3" }
 				]
 			},
 			"WaterSplash-12": {
@@ -1085,6 +861,9 @@
 					{ "time": 0.9, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 1, "color": "ffffffff" },
 					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-4" }
 				]
 			},
 			"WaterSplash-13": {
@@ -1094,66 +873,19 @@
 					{ "time": 0.9, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 1, "color": "ffffffff" },
 					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "WaterSplash-1" }
 				]
 			},
-			"explode_WD-1": {
+			"frame": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "frame" }
 				]
 			},
-			"explode_WD-2": {
+			"s7_boat": {
 				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-1": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-8": {
-				"attachment": [
-					{ "name": null }
+					{ "name": "s7_boat" }
 				]
 			}
 		},
@@ -1580,219 +1312,14 @@
 	},
 	"idle": {
 		"slots": {
-			"WaterDrops-4": {
+			"frame": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "frame" }
 				]
 			},
-			"WaterDrops-5": {
+			"s7_boat": {
 				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-8": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-9": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-10": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-11": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-12": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-13": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-14": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-15": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-16": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-17": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-18": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-19": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-20": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterDrops-21": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-1": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-8": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-9": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-10": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-11": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-12": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"WaterSplash-13": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-1": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_WD-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-1": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-8": {
-				"attachment": [
-					{ "name": null }
+					{ "name": "s7_boat" }
 				]
 			}
 		}

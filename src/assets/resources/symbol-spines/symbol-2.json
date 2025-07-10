@@ -1,17 +1,8 @@
 {
-"skeleton": {
-	"hash": "l/7wWvS8QhcOXPnTcoj+gncp/QY",
-	"spine": "3.8.99",
-	"x": -78.29,
-	"y": -74.09,
-	"width": 165.26,
-	"height": 164.54,
-	"images": "./image/",
-	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/BigBassFishingTournament/spine/symbol-spine"
-},
+"skeleton": { "hash": "PeRr5f/savzSJvihjyGiXXjV57Q", "spine": "3.8.99", "images": "./image/", "audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/BigBassFishingTournament/spine/symbol-spine" },
 "bones": [
 	{ "name": "root" },
-	{ "name": "symbol-2", "parent": "root", "color": "ff0000ff" },
+	{ "name": "symbol-2", "parent": "root", "color": "ffffff00" },
 	{ "name": "explode_water-1", "parent": "root", "x": -56.77, "y": -38.42, "color": "ffe800ff" },
 	{ "name": "explode_water-2", "parent": "root", "x": -51.42, "y": -32.48, "color": "f0ff00ff" },
 	{ "name": "explode_water-3", "parent": "root", "x": -52.02, "y": -26.54, "color": "f3ff00ff" },
@@ -20,52 +11,33 @@
 	{ "name": "explode_water-6", "parent": "root", "x": 31.49, "y": -36.11, "color": "f7ff00ff" },
 	{ "name": "explode_water-7", "parent": "root", "x": -25.62, "y": -15.57, "color": "f7ff00ff" },
 	{ "name": "explode_water-8", "parent": "root", "x": -28.45, "y": -1.89, "color": "f7ff00ff" },
-	{ "name": "explode_WD-1", "parent": "root", "rotation": -154.06, "x": 4.71, "y": 16.86, "color": "ff7700ff" },
-	{ "name": "explode_WD-2", "parent": "root", "x": 11.18, "y": 17.06, "color": "ff7800ff" },
-	{ "name": "explode_WD-3", "parent": "root", "x": 11.18, "y": 17.06, "color": "ff7800ff" },
-	{ "name": "explode_WD-4", "parent": "root", "rotation": -154.06, "x": 4.71, "y": 16.86, "color": "ff7700ff" },
 	{ "name": "bone", "parent": "symbol-2" },
-	{ "name": "sunglassesBone2", "parent": "bone", "length": 52.21, "rotation": 90, "x": -2.52, "y": -22.78 },
 	{ "name": "oceanBone2", "parent": "bone", "length": 59.66, "rotation": 89.66, "x": -11.8, "y": -26.68 },
-	{ "name": "lightBone2", "parent": "bone", "length": 99.86, "rotation": 79.74, "x": -72.33, "y": -38.98 }
+	{ "name": "lightBone2", "parent": "bone", "length": 99.86, "rotation": 79.74, "x": -72.33, "y": -38.98 },
+	{ "name": "lightBone3", "parent": "bone", "length": 99.86, "rotation": 79.74, "x": -72.33, "y": -38.98 }
 ],
 "slots": [
-	{ "name": "sunglasses2", "bone": "bone", "attachment": "sunglasses" },
+	{ "name": "sunglasses2", "bone": "bone" },
 	{ "name": "oceanMask2", "bone": "bone", "attachment": "oceanMask" },
-	{ "name": "ocean2", "bone": "bone", "attachment": "ocean" },
-	{ "name": "left2", "bone": "bone", "attachment": "left", "blend": "screen" },
-	{ "name": "right2", "bone": "bone", "attachment": "right", "blend": "screen" },
-	{ "name": "gradientLight2", "bone": "bone", "color": "ffffff4f", "attachment": "gradientLight", "blend": "additive" },
-	{ "name": "glass-frame2", "bone": "bone", "attachment": "glass-frame" },
-	{ "name": "explode_water-1", "bone": "explode_water-1", "attachment": "explode_water/explode_water-1" },
-	{ "name": "explode_water-2", "bone": "explode_water-2", "attachment": "explode_water/explode_water-2" },
-	{ "name": "explode_water-3", "bone": "explode_water-3", "attachment": "explode_water/explode_water-3" },
-	{ "name": "explode_water-4", "bone": "explode_water-4", "attachment": "explode_water/explode_water-4" },
-	{ "name": "explode_water-5", "bone": "explode_water-5", "attachment": "explode_water/explode_water-5" },
-	{ "name": "explode_water-6", "bone": "explode_water-6", "attachment": "explode_water/explode_water-6" },
-	{ "name": "explode_water-7", "bone": "explode_water-7", "attachment": "explode_water/explode_water-7" },
-	{ "name": "explode_water-8", "bone": "explode_water-8", "attachment": "explode_water/explode_water-8" },
-	{ "name": "explode_WD-1", "bone": "explode_WD-1", "attachment": "explode_WD-1" },
-	{ "name": "explode_WD-4", "bone": "explode_WD-4", "attachment": "explode_WD-1" },
-	{ "name": "explode_WD-2", "bone": "explode_WD-2", "attachment": "explode_WD-2" },
-	{ "name": "explode_WD-3", "bone": "explode_WD-3", "attachment": "explode_WD-2" }
+	{ "name": "ocean2", "bone": "bone" },
+	{ "name": "left2", "bone": "bone" },
+	{ "name": "right2", "bone": "bone" },
+	{ "name": "gradientLight2", "bone": "lightBone2", "color": "ffffff4e", "attachment": "gradientLight", "blend": "additive" },
+	{ "name": "gradientLight3", "bone": "lightBone3", "color": "ffffff4e", "attachment": "gradientLight", "blend": "additive" },
+	{ "name": "glass-frame2", "bone": "bone" },
+	{ "name": "explode_water-1", "bone": "explode_water-1" },
+	{ "name": "explode_water-2", "bone": "explode_water-2" },
+	{ "name": "explode_water-3", "bone": "explode_water-3" },
+	{ "name": "explode_water-4", "bone": "explode_water-4" },
+	{ "name": "explode_water-5", "bone": "explode_water-5" },
+	{ "name": "explode_water-6", "bone": "explode_water-6" },
+	{ "name": "explode_water-7", "bone": "explode_water-7" },
+	{ "name": "explode_water-8", "bone": "explode_water-8" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"explode_WD-1": {
-				"explode_WD-1": { "x": -4.24, "y": -11.41, "width": 17, "height": 30 }
-			},
-			"explode_WD-2": {
-				"explode_WD-2": { "x": 1.29, "y": -10.65, "width": 14, "height": 23 }
-			},
-			"explode_WD-3": {
-				"explode_WD-2": { "x": 1.29, "y": -10.65, "width": 14, "height": 23 }
-			},
-			"explode_WD-4": {
-				"explode_WD-1": { "x": -4.24, "y": -11.41, "width": 17, "height": 30 }
-			},
 			"explode_water-1": {
 				"explode_water/explode_water-1": { "x": 3.31, "y": 22.85, "width": 28, "height": 48 }
 			},
@@ -98,7 +70,19 @@
 					"type": "mesh",
 					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
 					"triangles": [ 1, 2, 3, 1, 3, 0 ],
-					"vertices": [ 1, 17, -9.32, -14.88, 1, 1, 17, -8.77, 14.11, 1, 1, 17, 101.21, 12.01, 1, 1, 17, 100.66, -16.98, 1 ],
+					"vertices": [ 1, 12, -9.32, -14.88, 1, 1, 12, -8.77, 14.11, 1, 1, 12, 101.21, 12.01, 1, 1, 12, 100.66, -16.98, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 29,
+					"height": 110
+				}
+			},
+			"gradientLight3": {
+				"gradientLight": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 13, -9.32, -14.88, 1, 1, 13, -8.77, 14.11, 1, 1, 13, 101.21, 12.01, 1, 1, 13, 100.66, -16.98, 1 ],
 					"hull": 4,
 					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
 					"width": 29,
@@ -122,7 +106,7 @@
 					"type": "mesh",
 					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
 					"triangles": [ 1, 2, 3, 1, 3, 0 ],
-					"vertices": [ 1, 16, -7.06, -65.43, 1, 1, 16, -3.58, 58.52, 1, 1, 16, 43.4, 57.2, 1, 1, 16, 39.92, -66.75, 1 ],
+					"vertices": [ 1, 11, -7.06, -65.43, 1, 1, 11, -3.58, 58.52, 1, 1, 11, 43.4, 57.2, 1, 1, 11, 39.92, -66.75, 1 ],
 					"hull": 4,
 					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
 					"width": 124,
@@ -155,7 +139,7 @@
 					"type": "mesh",
 					"uvs": [ 0.42086, 0.30444, 0.48199, 0.3338, 0.53671, 0.37702, 0.70729, 0.37716, 0.79397, 0.39676, 0.92637, 0.35217, 0.97752, 0.37793, 0.97781, 0.52281, 0.92231, 0.52316, 0.92259, 0.47105, 0.82865, 0.54117, 0.78988, 0.6837, 0.72513, 0.75, 0.53093, 0.75051, 0.45223, 0.69633, 0.39542, 0.56968, 0.32238, 0.67618, 0.24102, 0.69786, 0.14834, 0.67762, 0.09069, 0.61893, 0.0497, 0.42822, 0.04969, 0.33819, 0.25599, 0.3041 ],
 					"triangles": [ 20, 21, 22, 9, 4, 5, 9, 5, 6, 9, 6, 7, 9, 10, 4, 8, 9, 7, 15, 22, 0, 15, 0, 1, 15, 1, 2, 20, 22, 15, 19, 20, 15, 19, 17, 18, 19, 15, 17, 10, 11, 3, 10, 3, 4, 14, 15, 2, 16, 17, 15, 3, 11, 2, 13, 14, 2, 11, 13, 2, 12, 13, 11 ],
-					"vertices": [ 1, 15, 44.3, 6.17, 1, 1, 15, 41.06, -0.56, 1, 1, 15, 36.3, -6.57, 1, 1, 15, 36.28, -25.34, 1, 1, 15, 34.11, -34.87, 1, 1, 15, 39.01, -49.44, 1, 1, 15, 36.17, -55.06, 1, 1, 15, 20.23, -55.08, 1, 1, 15, 20.2, -48.98, 1, 1, 15, 25.93, -49.01, 1, 1, 15, 18.22, -38.67, 1, 1, 15, 2.55, -34.4, 1, 1, 15, -4.74, -27.27, 1, 1, 15, -4.78, -5.91, 1, 1, 15, 1.19, 2.75, 1, 1, 15, 15.12, 8.99, 1, 1, 15, 3.41, 17.03, 1, 1, 15, 1.03, 25.98, 1, 1, 15, 3.27, 36.17, 1, 1, 15, 9.73, 42.51, 1, 1, 15, 30.71, 47, 1, 1, 15, 40.61, 47, 1, 1, 15, 44.35, 24.3, 1 ],
+					"vertices": [ 1, 10, -8.69, 21.52, 1, 1, 10, -1.97, 18.28, 1, 1, 10, 4.05, 13.53, 1, 1, 10, 22.81, 13.5, 1, 1, 10, 32.35, 11.33, 1, 1, 10, 46.91, 16.23, 1, 1, 10, 52.54, 13.39, 1, 1, 10, 52.56, -2.55, 1, 1, 10, 46.45, -2.58, 1, 1, 10, 46.49, 3.15, 1, 1, 10, 36.15, -4.56, 1, 1, 10, 31.87, -20.23, 1, 1, 10, 24.74, -27.52, 1, 1, 10, 3.38, -27.56, 1, 1, 10, -5.27, -21.59, 1, 1, 10, -11.51, -7.66, 1, 1, 10, -19.55, -19.37, 1, 1, 10, -28.5, -21.74, 1, 1, 10, -38.7, -19.51, 1, 1, 10, -45.03, -13.05, 1, 1, 10, -49.53, 7.93, 1, 1, 10, -49.52, 17.84, 1, 1, 10, -26.83, 21.57, 1 ],
 					"hull": 23,
 					"edges": [ 0, 44, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 40, 42, 42, 44 ],
 					"width": 110,
@@ -168,73 +152,38 @@
 "animations": {
 	"explode": {
 		"slots": {
-			"explode_WD-1": {
-				"color": [
-					{ "time": 0.3667, "color": "ffffffff" },
-					{ "time": 0.4333, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-2": {
-				"color": [
-					{ "time": 0.4667, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-3": {
-				"color": [
-					{ "time": 0.4667, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_WD-4": {
-				"color": [
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"explode_water-1": {
-				"attachment": [
-					{ "time": 0.0667, "name": null }
-				]
-			},
 			"explode_water-2": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.0667, "name": "explode_water/explode_water-2" },
 					{ "time": 0.1667, "name": null }
 				]
 			},
 			"explode_water-3": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.1667, "name": "explode_water/explode_water-3" },
 					{ "time": 0.2333, "name": null }
 				]
 			},
 			"explode_water-4": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.2333, "name": "explode_water/explode_water-4" },
 					{ "time": 0.3, "name": null }
 				]
 			},
 			"explode_water-5": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.3, "name": "explode_water/explode_water-5" },
 					{ "time": 0.4, "name": null }
 				]
 			},
 			"explode_water-6": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.4, "name": "explode_water/explode_water-6" },
 					{ "time": 0.4333, "name": null }
 				]
 			},
 			"explode_water-7": {
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.4333, "name": "explode_water/explode_water-7" },
 					{ "time": 0.5, "name": null }
 				]
@@ -245,7 +194,6 @@
 					{ "time": 0.5667, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "name": null },
 					{ "time": 0.5, "name": "explode_water/explode_water-8" }
 				]
 			},
@@ -254,9 +202,19 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "glass-frame" }
 				]
 			},
 			"gradientLight2": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "91f7ffff" },
+					{ "time": 0.5, "color": "91f7ff00" }
+				]
+			},
+			"gradientLight3": {
 				"color": [
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
@@ -268,6 +226,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "left" }
 				]
 			},
 			"ocean2": {
@@ -275,6 +236,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "ocean" }
 				]
 			},
 			"right2": {
@@ -282,6 +246,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "right" }
 				]
 			},
 			"sunglasses2": {
@@ -289,6 +256,9 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
+				],
+				"attachment": [
+					{ "name": "sunglasses" }
 				]
 			}
 		},
@@ -410,99 +380,11 @@
 					{ "time": 0.5667, "x": 0.545, "y": 0.545 }
 				]
 			},
-			"explode_WD-1": {
-				"rotate": [
-					{ "angle": -7.09 },
-					{ "time": 0.1667, "angle": -59.03 },
-					{ "time": 0.2667, "angle": -158.32 },
-					{ "time": 0.3667, "angle": 155.25 },
-					{ "time": 0.4333, "angle": 100.81 }
-				],
-				"translate": [
-					{ "x": -47.38, "y": -30.17 },
-					{ "time": 0.1667, "x": -30.46, "y": 50.48 },
-					{ "time": 0.2667, "x": 55.55, "y": 32.15 },
-					{ "time": 0.3667, "x": 53.02, "y": -49.63 },
-					{ "time": 0.4333, "x": 12.13, "y": -74.45 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0 },
-					{ "time": 0.2667 }
-				]
-			},
-			"explode_WD-2": {
-				"rotate": [
-					{ "angle": -19.74, "curve": "stepped" },
-					{ "time": 0.2333, "angle": -19.74 },
-					{ "time": 0.3667, "angle": -58.25 },
-					{ "time": 0.5, "angle": -112.24 },
-					{ "time": 0.6, "angle": -159.92 }
-				],
-				"translate": [
-					{ "x": 30.16, "y": -18.56, "curve": "stepped" },
-					{ "time": 0.2333, "x": 30.16, "y": -18.56 },
-					{ "time": 0.3667, "x": 24.59, "y": -55.22 },
-					{ "time": 0.5, "x": -40.83, "y": -56.61 },
-					{ "time": 0.6, "x": -70.53, "y": -26.91 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2333, "x": 0, "y": 0 },
-					{ "time": 0.5 }
-				]
-			},
 			"symbol-2": {
 				"scale": [
 					{ "time": 0.1333, "curve": 0.25, "c3": 0.315 },
 					{ "time": 0.2333, "x": 1.2, "y": 1.2, "curve": 0.072, "c3": 0.32 },
 					{ "time": 0.5, "x": 0.5, "y": 0.5 }
-				]
-			},
-			"explode_WD-3": {
-				"rotate": [
-					{ "angle": -167.38, "curve": "stepped" },
-					{ "time": 0.2667, "angle": -167.38 },
-					{ "time": 0.4, "angle": 93.37 },
-					{ "time": 0.4333, "angle": 13.96 },
-					{ "time": 0.4667, "angle": -16.35 },
-					{ "time": 0.5, "angle": -2.33 },
-					{ "time": 0.6, "angle": -81.15 }
-				],
-				"translate": [
-					{ "x": -66.64, "y": -29.01, "curve": "stepped" },
-					{ "time": 0.2667, "x": -66.64, "y": -29.01 },
-					{ "time": 0.4, "x": -16.59, "y": 24.89 },
-					{ "time": 0.5, "x": 38.96, "y": -18.01 },
-					{ "time": 0.6, "x": 16.41, "y": -51.01 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2667, "x": 0, "y": 0 },
-					{ "time": 0.5 }
-				]
-			},
-			"explode_WD-4": {
-				"rotate": [
-					{ "angle": 109.42, "curve": "stepped" },
-					{ "time": 0.2333, "angle": 109.42 },
-					{ "time": 0.3333, "angle": 26.8 },
-					{ "time": 0.4, "angle": -23.01 },
-					{ "time": 0.4333, "angle": -5.92 },
-					{ "time": 0.5, "angle": -56.3 },
-					{ "time": 0.6, "angle": -128.63 }
-				],
-				"translate": [
-					{ "x": 25.21, "y": -61.73, "curve": "stepped" },
-					{ "time": 0.2333, "x": 25.21, "y": -61.73 },
-					{ "time": 0.3333, "x": -51.06, "y": -58.58 },
-					{ "time": 0.4333, "x": -69.99, "y": 14.01 },
-					{ "time": 0.5, "x": -33.17, "y": 36.1 },
-					{ "time": 0.6, "x": 35.73, "y": 30.84 }
-				],
-				"scale": [
-					{ "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.2333, "x": 0, "y": 0 },
-					{ "time": 0.4 }
 				]
 			},
 			"oceanBone2": {
@@ -517,76 +399,43 @@
 	},
 	"highlight": {
 		"slots": {
-			"explode_WD-1": {
+			"glass-frame2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "glass-frame" }
 				]
 			},
-			"explode_WD-2": {
+			"left2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "left" }
 				]
 			},
-			"explode_WD-3": {
+			"ocean2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "ocean" }
 				]
 			},
-			"explode_WD-4": {
+			"right2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "right" }
 				]
 			},
-			"explode_water-1": {
+			"sunglasses2": {
 				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-8": {
-				"attachment": [
-					{ "name": null }
+					{ "name": "sunglasses" }
 				]
 			}
 		},
 		"bones": {
 			"bone": {
 				"translate": [
-					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "y": -1.36, "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.8333, "y": 7, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 0.9333, "y": -1.72, "curve": 0.25, "c3": 0.75 },
 					{ "time": 1.0333, "curve": 0.25, "c3": 0.75 },
 					{ "time": 1.1667, "y": 7, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.2667 }
+					{ "time": 1.2667, "y": -0.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
 				]
 			},
 			"lightBone2": {
@@ -611,69 +460,40 @@
 					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
 					{ "time": 1.3333, "x": 0.98 }
 				]
+			},
+			"lightBone3": {
+				"translate": [
+					{ "time": 0.3667 },
+					{ "time": 0.9333, "x": 109.68, "y": -19.85 }
+				]
 			}
 		}
 	},
 	"idle": {
 		"slots": {
-			"explode_WD-1": {
+			"glass-frame2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "glass-frame" }
 				]
 			},
-			"explode_WD-2": {
+			"left2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "left" }
 				]
 			},
-			"explode_WD-3": {
+			"ocean2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "ocean" }
 				]
 			},
-			"explode_WD-4": {
+			"right2": {
 				"attachment": [
-					{ "name": null }
+					{ "name": "right" }
 				]
 			},
-			"explode_water-1": {
+			"sunglasses2": {
 				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-3": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-4": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-5": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-6": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-7": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"explode_water-8": {
-				"attachment": [
-					{ "name": null }
+					{ "name": "sunglasses" }
 				]
 			}
 		},
