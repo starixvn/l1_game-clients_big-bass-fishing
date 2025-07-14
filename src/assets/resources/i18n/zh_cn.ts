@@ -281,7 +281,7 @@ export const languages = {
         "you_win_free_spin": "您赢得"
     },
     "BigBassFishing": {
-        "game_icon_name": "大鱸魚爭霸賽",
+        "game_icon_name": "大鲈鱼争霸赛",
         "game_name": "大鲈鱼争霸赛"
     }
 };
