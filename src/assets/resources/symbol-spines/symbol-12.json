@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "AuUnvYe5A0Uex7zOfB7KUN/OWRk",
+	"hash": "GcWDdn42oS9LVHRNeBU0Z8/x1fk",
 	"spine": "3.8.99",
 	"x": -79.8,
 	"y": -76.3,
@@ -11,7 +11,7 @@
 },
 "bones": [
 	{ "name": "root" },
-	{ "name": "symbol-12", "parent": "root", "color": "ff0000ff" },
+	{ "name": "symbol-13", "parent": "root", "color": "ff0000ff" },
 	{ "name": "water_drop-1", "parent": "root", "length": 7.12, "rotation": -86.38, "x": 62.55, "y": 41.33 },
 	{ "name": "water_drop-1-2", "parent": "water_drop-1", "length": 5.7, "rotation": 2.72, "x": 7.12 },
 	{ "name": "water_drop-1-3", "parent": "water_drop-1-2", "length": 5.95, "rotation": -2.87, "x": 5.7 },
@@ -28,8 +28,6 @@
 ],
 "slots": [
 	{ "name": "ripple_shine/ripple_shine_00", "bone": "ripple_shine", "attachment": "ripple_shine/ripple_shine_19", "blend": "additive" },
-	{ "name": "s12", "bone": "symbol-12", "attachment": "s12" },
-	{ "name": "s12-glow", "bone": "symbol-12", "attachment": "s12-glow", "blend": "additive" },
 	{ "name": "explode_WD-1", "bone": "water_drop-1-3", "attachment": "explode_WD-2" },
 	{ "name": "explode_WD-2", "bone": "water_drop-1-5", "attachment": "explode_WD-2" },
 	{ "name": "explode_WD-3", "bone": "water_drop-1-7", "attachment": "explode_WD-2" },
@@ -37,7 +35,9 @@
 	{ "name": "path-1", "bone": "root", "attachment": "path-1" },
 	{ "name": "path-2", "bone": "root", "attachment": "path-2" },
 	{ "name": "path-3", "bone": "root", "attachment": "path-3" },
-	{ "name": "path-4", "bone": "root", "attachment": "path-4" }
+	{ "name": "path-4", "bone": "root", "attachment": "path-4" },
+	{ "name": "s13", "bone": "symbol-13", "attachment": "s13" },
+	{ "name": "s13-glow", "bone": "symbol-13", "attachment": "s13-glow", "blend": "additive" }
 ],
 "path": [
 	{
@@ -170,11 +170,11 @@
 				"ripple_shine/ripple_shine_18": { "width": 228, "height": 218 },
 				"ripple_shine/ripple_shine_19": { "width": 228, "height": 218 }
 			},
-			"s12": {
-				"s12": { "width": 87, "height": 107 }
+			"s13": {
+				"s13": { "width": 87, "height": 107 }
 			},
-			"s12-glow": {
-				"s12-glow": { "width": 129, "height": 147 }
+			"s13-glow": {
+				"s13-glow": { "width": 116, "height": 135 }
 			}
 		}
 	}
@@ -241,7 +241,7 @@
 					{ "time": 0.6667, "name": null }
 				]
 			},
-			"s12-glow": {
+			"s13-glow": {
 				"color": [
 					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.4333, "color": "ffffffce" }
@@ -249,7 +249,7 @@
 			}
 		},
 		"bones": {
-			"symbol-12": {
+			"symbol-13": {
 				"rotate": [
 					{ "curve": 0.152, "c3": 0.329 },
 					{ "time": 0.1333, "angle": 29.43, "curve": 0.25, "c3": 0.75 },
@@ -359,9 +359,16 @@
 					{ "name": null }
 				]
 			},
-			"s12-glow": {
+			"s13-glow": {
 				"attachment": [
 					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"symbol-13": {
+				"rotate": [
+					{ "angle": 0.02 }
 				]
 			}
 		}
