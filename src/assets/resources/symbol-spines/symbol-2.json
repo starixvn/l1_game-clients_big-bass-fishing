@@ -1,5 +1,14 @@
 {
-"skeleton": { "hash": "PeRr5f/savzSJvihjyGiXXjV57Q", "spine": "3.8.99", "images": "./image/", "audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/BigBassFishingTournament/spine/symbol-spine" },
+"skeleton": {
+	"hash": "iKXcB+fXi9uar1Mk/gftNQkTMLw",
+	"spine": "3.8.99",
+	"x": -49.53,
+	"y": -27.56,
+	"width": 102.08,
+	"height": 49.13,
+	"images": "./image/",
+	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/BigBassFishingTournament/spine/symbol-spine"
+},
 "bones": [
 	{ "name": "root" },
 	{ "name": "symbol-2", "parent": "root", "color": "ffffff00" },
@@ -17,14 +26,14 @@
 	{ "name": "lightBone3", "parent": "bone", "length": 99.86, "rotation": 79.74, "x": -72.33, "y": -38.98 }
 ],
 "slots": [
-	{ "name": "sunglasses2", "bone": "bone" },
+	{ "name": "sunglasses2", "bone": "bone", "attachment": "sunglasses" },
 	{ "name": "oceanMask2", "bone": "bone", "attachment": "oceanMask" },
-	{ "name": "ocean2", "bone": "bone" },
-	{ "name": "left2", "bone": "bone" },
-	{ "name": "right2", "bone": "bone" },
+	{ "name": "ocean2", "bone": "bone", "attachment": "ocean" },
+	{ "name": "left2", "bone": "bone", "attachment": "left" },
+	{ "name": "right2", "bone": "bone", "attachment": "right" },
 	{ "name": "gradientLight2", "bone": "lightBone2", "color": "ffffff4e", "attachment": "gradientLight", "blend": "additive" },
 	{ "name": "gradientLight3", "bone": "lightBone3", "color": "ffffff4e", "attachment": "gradientLight", "blend": "additive" },
-	{ "name": "glass-frame2", "bone": "bone" },
+	{ "name": "glass-frame2", "bone": "bone", "attachment": "glass-frame" },
 	{ "name": "explode_water-1", "bone": "explode_water-1" },
 	{ "name": "explode_water-2", "bone": "explode_water-2" },
 	{ "name": "explode_water-3", "bone": "explode_water-3" },
@@ -118,7 +127,7 @@
 					"type": "clipping",
 					"end": "glass-frame2",
 					"vertexCount": 96,
-					"vertices": [ -21.71, -10.3, -22.36, -11.6, -23.13, -12.9, -24.07, -14.02, -20.65, -11.97, -2.77, -12.88, -3.17, -11.52, -3.73, -9.56, -4.05, -7.51, -4.32, -5.14, -4.43, -2.67, -4.6, -0.52, -4.33, 1.34, -3.72, 3.07, -2.73, 4.43, -1.33, 5.61, 0.42, 6.4, 2.34, 6.74, 4.1, 6.95, 6.11, 7.02, 8.21, 7.02, 10.23, 6.98, 12.69, 6.94, 15.11, 6.79, 17.33, 6.51, 19.99, 6.07, 22.4, 5.29, 23.97, 4.21, 25.51, 2.76, 26.36, 0.97, 26.76, -0.81, 26.95, -2.89, 27.04, -5.72, 26.79, -9.3, 26.22, -12.23, 25.5, -15.04, 24.55, -17.46, 22.32, -20.1, 20.21, -21.91, 17.09, -22.68, 12.52, -22.65, 9.05, -22.66, 6.17, -22.06, 4.12, -21.21, 2.18, -19.95, 0.66, -18.57, -0.85, -17.04, -1.65, -16, -2.25, -14.66, -2.77, -12.89, -20.63, -11.98, -24.07, -14.02, -25.31, -15.08, -26.37, -15.91, -27.85, -16.32, -29.44, -16.26, -31.03, -16.2, -32.69, -16.03, -34.22, -15.49, -35.58, -14.9, -36.99, -14.02, -38.05, -13.02, -39.06, -12.25, -39.94, -10.95, -40.71, -9.54, -41.3, -8.06, -41.89, -6.17, -42.18, -4.64, -42.36, -3.28, -42.6, -1.22, -42.72, 0.55, -42.66, 1.97, -42.66, 4.21, -42.48, 5.8, -42.18, 7.28, -41.65, 9.11, -40.53, 10.23, -39, 10.76, -37.23, 11, -35.58, 11, -33.45, 10.82, -31.8, 10.58, -29.97, 10.23, -28.44, 9.76, -26.84, 9.17, -25.25, 8.28, -23.84, 7.28, -22.77, 6.28, -21.77, 4.98, -20.94, 3.21, -20.53, 1.38, -20.41, -0.98, -20.47, -2.99, -20.53, -5.41, -20.77, -7.47, -21.12, -9.12 ],
+					"vertices": [ -21.71, -10.3, -22.36, -11.6, -23.13, -12.9, -24.07, -14.02, -20.65, -11.97, -2.89, -12.88, -3.29, -11.52, -3.73, -9.56, -4.05, -7.51, -4.32, -5.14, -4.51, -2.67, -4.6, -0.52, -4.33, 1.34, -3.72, 3.07, -2.73, 4.43, -1.33, 5.61, 0.42, 6.4, 2.34, 6.74, 4.1, 6.95, 6.11, 7.02, 8.21, 7.02, 10.23, 6.98, 12.69, 6.94, 15.11, 6.79, 17.33, 6.51, 19.99, 6.07, 22.4, 5.29, 23.97, 4.21, 25.51, 2.76, 26.36, 0.97, 26.76, -0.81, 26.95, -2.89, 27.04, -5.72, 26.79, -9.3, 26.22, -12.23, 25.5, -15.04, 24.55, -17.46, 22.32, -20.1, 20.21, -21.45, 17.09, -22.24, 12.52, -22.65, 9.05, -22.56, 6.33, -22.06, 4.26, -21.21, 2.18, -19.95, 0.5, -18.57, -0.85, -17.04, -1.57, -16, -2.25, -14.66, -2.89, -12.89, -20.63, -11.98, -24.07, -14.02, -25.31, -15.08, -26.37, -15.81, -27.85, -16.2, -29.44, -16.26, -31.03, -16.2, -32.69, -15.95, -34.22, -15.49, -35.58, -14.82, -36.99, -13.96, -38.05, -13.16, -39.06, -12.17, -39.94, -10.95, -40.71, -9.54, -41.3, -8.06, -41.89, -6.17, -42.18, -4.64, -42.36, -3.28, -42.6, -1.22, -42.72, 0.55, -42.76, 1.97, -42.66, 4.21, -42.48, 5.8, -42.18, 7.28, -41.65, 9.11, -40.53, 10.23, -39, 10.76, -37.23, 11, -35.58, 11, -33.45, 10.82, -31.8, 10.58, -29.97, 10.23, -28.44, 9.76, -26.84, 9.17, -25.25, 8.28, -23.84, 7.28, -22.77, 6.28, -21.77, 4.98, -20.94, 3.21, -20.53, 1.38, -20.41, -0.98, -20.47, -2.99, -20.53, -5.41, -20.77, -7.47, -21.12, -9.12 ],
 					"color": "ce3a3aff"
 				}
 			},
@@ -202,9 +211,6 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
-				],
-				"attachment": [
-					{ "name": "glass-frame" }
 				]
 			},
 			"gradientLight2": {
@@ -226,9 +232,6 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
-				],
-				"attachment": [
-					{ "name": "left" }
 				]
 			},
 			"ocean2": {
@@ -236,9 +239,6 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
-				],
-				"attachment": [
-					{ "name": "ocean" }
 				]
 			},
 			"right2": {
@@ -246,9 +246,6 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
-				],
-				"attachment": [
-					{ "name": "right" }
 				]
 			},
 			"sunglasses2": {
@@ -256,9 +253,6 @@
 					{ "color": "ffffffff" },
 					{ "time": 0.3333, "color": "91f7ffff" },
 					{ "time": 0.5, "color": "91f7ff00" }
-				],
-				"attachment": [
-					{ "name": "sunglasses" }
 				]
 			}
 		},
@@ -398,33 +392,6 @@
 		}
 	},
 	"highlight": {
-		"slots": {
-			"glass-frame2": {
-				"attachment": [
-					{ "name": "glass-frame" }
-				]
-			},
-			"left2": {
-				"attachment": [
-					{ "name": "left" }
-				]
-			},
-			"ocean2": {
-				"attachment": [
-					{ "name": "ocean" }
-				]
-			},
-			"right2": {
-				"attachment": [
-					{ "name": "right" }
-				]
-			},
-			"sunglasses2": {
-				"attachment": [
-					{ "name": "sunglasses" }
-				]
-			}
-		},
 		"bones": {
 			"bone": {
 				"translate": [
@@ -470,33 +437,6 @@
 		}
 	},
 	"idle": {
-		"slots": {
-			"glass-frame2": {
-				"attachment": [
-					{ "name": "glass-frame" }
-				]
-			},
-			"left2": {
-				"attachment": [
-					{ "name": "left" }
-				]
-			},
-			"ocean2": {
-				"attachment": [
-					{ "name": "ocean" }
-				]
-			},
-			"right2": {
-				"attachment": [
-					{ "name": "right" }
-				]
-			},
-			"sunglasses2": {
-				"attachment": [
-					{ "name": "sunglasses" }
-				]
-			}
-		},
 		"bones": {
 			"oceanBone2": {
 				"rotate": [
