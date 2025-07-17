@@ -1,90 +1,167 @@
 
 mascot.webp
-size: 465,1020
+size: 1032,522
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Eyelid
+arm_L
   rotate: false
-  xy: 332, 43
-  size: 45, 17
-  orig: 45, 17
+  xy: 506, 10
+  size: 100, 158
+  orig: 100, 158
   offset: 0, 0
   index: -1
-Flag
+arm_R
+  rotate: false
+  xy: 922, 348
+  size: 110, 164
+  orig: 110, 164
+  offset: 0, 0
+  index: -1
+beard01
   rotate: true
-  xy: 2, 2
-  size: 159, 260
-  orig: 161, 262
-  offset: 0, 0
-  index: -1
-Group 1
-  rotate: false
-  xy: 2, 163
-  size: 278, 448
-  orig: 279, 449
-  offset: 1, 0
-  index: -1
-Head
-  rotate: false
-  xy: 282, 62
-  size: 172, 215
-  orig: 172, 216
+  xy: 464, 20
+  size: 173, 42
+  orig: 173, 42
   offset: 0, 0
   index: -1
 body
   rotate: false
-  xy: 2, 613
-  size: 300, 405
-  orig: 306, 405
-  offset: 5, 0
-  index: -1
-eyes
-  rotate: false
-  xy: 379, 43
-  size: 44, 17
-  orig: 44, 17
+  xy: 0, 153
+  size: 259, 250
+  orig: 259, 250
   offset: 0, 0
   index: -1
-hip-armor-left
+chin
+  rotate: false
+  xy: 0, 0
+  size: 260, 153
+  orig: 450, 802
+  offset: 141, 323
+  index: -1
+ear
+  rotate: false
+  xy: 955, 67
+  size: 55, 81
+  orig: 55, 81
+  offset: 0, 0
+  index: -1
+eyedrow_L
+  rotate: false
+  xy: 606, 142
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+eyedrow_R
+  rotate: false
+  xy: 955, 29
+  size: 72, 38
+  orig: 72, 39
+  offset: 0, 1
+  index: -1
+face
+  rotate: false
+  xy: 259, 193
+  size: 274, 210
+  orig: 274, 210
+  offset: 0, 0
+  index: -1
+fishline
   rotate: true
-  xy: 264, 8
-  size: 52, 66
-  orig: 54, 66
-  offset: 0, 0
+  xy: 0, 512
+  size: 10, 1000
+  orig: 50, 1000
+  offset: 18, 0
   index: -1
-hip-armor-right
+foot
   rotate: false
-  xy: 304, 688
-  size: 92, 80
-  orig: 92, 80
+  xy: 643, 406
+  size: 279, 106
+  orig: 279, 106
   offset: 0, 0
   index: -1
-left-hand
+glass
   rotate: false
-  xy: 282, 279
-  size: 181, 332
-  orig: 181, 333
+  xy: 656, 317
+  size: 259, 89
+  orig: 259, 89
   offset: 0, 0
   index: -1
-right-arm 1
+hand_L
   rotate: false
-  xy: 304, 878
-  size: 104, 140
-  orig: 105, 141
-  offset: 0, 0
+  xy: 606, 20
+  size: 194, 118
+  orig: 450, 802
+  offset: 256, 153
   index: -1
-shoulder-armor-left
+hand_R
   rotate: true
-  xy: 304, 614
-  size: 72, 79
-  orig: 72, 79
+  xy: 0, 403
+  size: 109, 643
+  orig: 132, 643
+  offset: 8, 0
+  index: -1
+handel
+  rotate: true
+  xy: 886, 227
+  size: 90, 55
+  orig: 450, 802
+  offset: 198, 183
+  index: -1
+hat
+  rotate: false
+  xy: 260, 25
+  size: 204, 168
+  orig: 279, 168
   offset: 0, 0
   index: -1
-shoulder-armor-right
+hat_brim
+  rotate: false
+  xy: 656, 217
+  size: 230, 100
+  orig: 279, 168
+  offset: 48, 46
+  index: -1
+hat_brim_back
   rotate: true
-  xy: 304, 770
-  size: 106, 97
-  orig: 107, 99
-  offset: 1, 1
+  xy: 909, 19
+  size: 129, 46
+  orig: 279, 168
+  offset: 139, 108
+  index: -1
+hat_inside
+  rotate: true
+  xy: 533, 168
+  size: 235, 123
+  orig: 235, 123
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 941, 211
+  size: 137, 71
+  orig: 137, 71
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 905, 148
+  size: 77, 63
+  orig: 77, 69
+  offset: 0, 0
+  index: -1
+pants
+  rotate: false
+  xy: 656, 138
+  size: 249, 79
+  orig: 279, 163
+  offset: 15, 84
+  index: -1
+shaft
+  rotate: true
+  xy: 800, 20
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
   index: -1

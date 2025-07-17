@@ -1,257 +1,68 @@
-
 transition.webp
-size: 1874,1850
+size: 1962,557
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-energy/Energy_11
-  rotate: false
-  xy: 2, 1586
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_12
-  rotate: false
-  xy: 2, 1322
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_13
-  rotate: false
-  xy: 470, 1586
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_14
-  rotate: false
-  xy: 2, 1058
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_15
-  rotate: false
-  xy: 470, 1322
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_16
-  rotate: false
-  xy: 938, 1586
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_17
-  rotate: false
-  xy: 2, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_18
-  rotate: false
-  xy: 470, 1058
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_19
-  rotate: false
-  xy: 938, 1322
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_20
-  rotate: false
-  xy: 1406, 1586
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_21
-  rotate: false
-  xy: 2, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_22
-  rotate: false
-  xy: 470, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_23
-  rotate: false
-  xy: 938, 1058
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_24
-  rotate: false
-  xy: 1406, 1322
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_25
-  rotate: false
-  xy: 2, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_26
-  rotate: false
-  xy: 470, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_27
-  rotate: false
-  xy: 938, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_28
-  rotate: false
-  xy: 1406, 1058
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_29
+fish
   rotate: false
   xy: 2, 2
-  size: 466, 262
-  orig: 466, 262
+  size: 957, 553
+  orig: 957, 553
   offset: 0, 0
   index: -1
-energy/Energy_30
+sparkle
   rotate: false
-  xy: 470, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 1443, 7
+  size: 66, 66
+  orig: 67, 67
+  offset: 0, 1
   index: -1
-energy/Energy_31
+w-column01
   rotate: false
-  xy: 938, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 1832, 70
+  size: 128, 485
+  orig: 186, 549
+  offset: 40, 43
   index: -1
-energy/Energy_32
+w-column02
   rotate: false
-  xy: 1406, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 1605, 64
+  size: 225, 491
+  orig: 252, 594
+  offset: 14, 69
   index: -1
-energy/Energy_33
+w-column03
   rotate: false
-  xy: 470, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 1356, 75
+  size: 247, 480
+  orig: 289, 595
+  offset: 17, 55
   index: -1
-energy/Energy_34
+w-column04
   rotate: false
-  xy: 938, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 961, 9
+  size: 393, 546
+  orig: 1400, 788
+  offset: 490, 64
   index: -1
-energy/Energy_35
-  rotate: false
-  xy: 1406, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_36
-  rotate: false
-  xy: 938, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_37
-  rotate: false
-  xy: 1406, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_38
-  rotate: false
-  xy: 1406, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-
-transition2.webp
-size: 1850,470
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-energy/Energy_39
+w-drop01
   rotate: true
-  xy: 2, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+  xy: 1356, 15
+  size: 58, 85
+  orig: 90, 130
+  offset: 22, 21
   index: -1
-energy/Energy_40
-  rotate: true
-  xy: 266, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+w-drop02
+  rotate: false
+  xy: 1511, 26
+  size: 75, 47
+  orig: 127, 103
+  offset: 17, 39
   index: -1
-energy/Energy_41
-  rotate: true
-  xy: 530, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_42
-  rotate: true
-  xy: 794, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_43
-  rotate: true
-  xy: 1058, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_44
-  rotate: true
-  xy: 1322, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_45
-  rotate: true
-  xy: 1586, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
+w-drop03
+  rotate: false
+  xy: 1588, 26
+  size: 50, 36
+  orig: 134, 67
+  offset: 65, 21
   index: -1

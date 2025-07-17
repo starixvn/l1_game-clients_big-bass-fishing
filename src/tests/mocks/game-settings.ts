@@ -1,7 +1,7 @@
 export const settings = {
-    id: 132,
-    name: "FruitSamurai",
-    tolgeeNamespaces: ["FruitSamurai", "cascadingslot"],
+    id: 141,
+    name: "BigBassFishing",
+    tolgeeNamespaces: ["BigBassFishing", "cascadingslot"],
     durations: {
         wholeRound: 14,
         lockingBet: 3,
@@ -14,7 +14,7 @@ export const settings = {
     },
     isMiniGame: false,
     numberOfRoundHistory: 11,
-    observerNamespace: "FruitSamurai",
+    observerNamespace: "BigBassFishing",
     validateBalanceWhenBet: true,
 };
 

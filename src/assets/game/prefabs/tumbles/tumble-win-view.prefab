@@ -102,7 +102,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 13.785000000000025,
+      "y": 11,
       "z": 0
     },
     "_lrot": {
@@ -360,7 +360,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 0,
-      "height": 28
+      "height": 24
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -398,10 +398,10 @@
     "_string": "",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
-    "_fontSize": 24,
+    "_actualFontSize": 20,
+    "_fontSize": 20,
     "_fontFamily": "Arial",
-    "_lineHeight": 28,
+    "_lineHeight": 24,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
@@ -522,7 +522,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 0,
-      "height": 28
+      "height": 24
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -560,14 +560,14 @@
     "_string": "",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
-    "_fontSize": 24,
+    "_actualFontSize": 20,
+    "_fontSize": 20,
     "_fontFamily": "Arial",
-    "_lineHeight": 28,
+    "_lineHeight": 24,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "7bf3edcc-e891-4662-8165-652b99c0688c",
+      "__uuid__": "e077a9ed-eebd-40d7-bf4e-95b88513469a",
       "__expectedType__": "cc.BitmapFont"
     },
     "_isSystemFontUsed": false,
@@ -639,7 +639,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0.65
     },
     "_id": ""
   },
@@ -785,12 +785,12 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 0,
-      "height": 28
+      "height": 24
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0.65
     },
     "_id": ""
   },
@@ -823,10 +823,10 @@
     "_string": "",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
-    "_fontSize": 24,
+    "_actualFontSize": 20,
+    "_fontSize": 20,
     "_fontFamily": "Arial",
-    "_lineHeight": 28,
+    "_lineHeight": 24,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
@@ -916,7 +916,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 200,
-      "height": 42
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -967,7 +967,10 @@
     "_fillRange": 0,
     "_isTrimmedMode": false,
     "_useGrayscale": false,
-    "_atlas": null,
+    "_atlas": {
+      "__uuid__": "cab245b3-fac5-4aa6-bb02-f370c663806f",
+      "__expectedType__": "cc.SpriteAtlas"
+    },
     "_id": ""
   },
   {
