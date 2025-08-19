@@ -1,22 +1,30 @@
 {
     "lobbyNames": {
-        "en": "Big Bass\nFishing",
-        "id": "Big Bass\nFishing",
-        "th": "Big Bass\nFishing",
-        "vi": "Vua Câu Cá",
-        "zh_cn": "大鱸魚爭霸賽",
-        "zh_tw": "大鱸魚爭霸賽",
-        "ja": "Big Bass\nFishing",
-        "es": "Big Bass\nFishing"
+        "en": "Olympub",
+        "es": "Olympub",
+        "fil_ph": "Olympub",
+        "id": "Olympub",
+        "ja": "Olympub",
+        "ko": "올림펍",
+        "pt_br": "Olympub",
+        "th": "Olympub",
+        "tr": "Olympub",
+        "vi": "Quán Bar\nOlympus",
+        "zh_cn": "奥林酒馆",
+        "zh_tw": "奧林酒館"
     },
     "gameNames": {
-        "en": "Big Bass Fishing",
-        "id": "Big Bass Fishing",
-        "th": "Big Bass Fishing",
-        "vi": "Vua Câu Cá",
-        "zh_cn": "大鲈鱼争霸赛",
-        "zh_tw": "大鱸魚爭霸賽",
-        "ja": "Big Bass Fishing",
-        "es": "Big Bass Fishing"
+        "en": "Olympub",
+        "es": "Olympub",
+        "fil_ph": "Olympub",
+        "id": "Olympub",
+        "ja": "Olympub",
+        "ko": "올림펍",
+        "pt_br": "Olympub",
+        "th": "Olympub",
+        "tr": "Olympub",
+        "vi": "Quán Bar Olympus",
+        "zh_cn": "奥林酒馆",
+        "zh_tw": "奧林酒館"
     }
 }
