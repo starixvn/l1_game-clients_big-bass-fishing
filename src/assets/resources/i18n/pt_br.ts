@@ -235,10 +235,6 @@ export const languages = {
         "pf_ header_merge_client_seed_single": "Unir Client Seed",
         "player": "Jogador"
     },
-    "Olympub": {
-        "game_name": "Olympub",
-        "game_icon_name": "Olympub"
-    },
     "BigBassFishing": {
         "game_name": "Pesca de Grande Robalo",
         "game_icon_name": "Grande Pesca\ndo Robalo"

@@ -235,10 +235,6 @@ export const languages = {
         "pf_ header_merge_client_seed_single": "클라이언트 시드 병합",
         "player": "플레이어"
     },
-    "Olympub": {
-        "game_name": "올림펍",
-        "game_icon_name": "올림펍"
-    },
     "BigBassFishing": {
         "game_name": "빅 배스 낚시",
         "game_icon_name": "빅 배스\n낚시"

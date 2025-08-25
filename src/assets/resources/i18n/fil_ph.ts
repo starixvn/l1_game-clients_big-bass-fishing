@@ -235,10 +235,6 @@ export const languages = {
         "pf_ header_merge_client_seed_single": "Merge Client Seed",
         "player": "Player"
     },
-    "Olympub": {
-        "game_name": "Olympub",
-        "game_icon_name": "Olympub"
-    },
     "BigBassFishing": {
         "game_name": "Big Bass Fishing",
         "game_icon_name": "Big Bass\nFishing"
