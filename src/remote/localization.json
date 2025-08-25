@@ -1,22 +1,30 @@
 {
     "lobbyNames": {
         "en": "Big Bass\nFishing",
+        "es": "Big Bass\nFishing",
+        "fil_ph": "Big Bass\nFishing",
         "id": "Big Bass\nFishing",
+        "ja": "Big Bass\nFishing",
+        "ko": "빅 배스\n낚시",
+        "pt_br": "Grande Pesca\ndo Robalo",
         "th": "Big Bass\nFishing",
+        "tr": "Büyük Levrek\nBalıkçılığı",
         "vi": "Vua Câu Cá",
         "zh_cn": "大鱸魚爭霸賽",
-        "zh_tw": "大鱸魚爭霸賽",
-        "ja": "Big Bass\nFishing",
-        "es": "Big Bass\nFishing"
+        "zh_tw": "大鱸魚爭霸賽"
     },
     "gameNames": {
         "en": "Big Bass Fishing",
+        "es": "Big Bass Fishing",
+        "fil_ph": "Big Bass Fishing",
         "id": "Big Bass Fishing",
+        "ja": "Big Bass Fishing",
+        "ko": "빅 배스 낚시",
+        "pt_br": "Pesca de Grande Robalo",
         "th": "Big Bass Fishing",
+        "tr": "Büyük Bass Balıkçılığı",
         "vi": "Vua Câu Cá",
         "zh_cn": "大鲈鱼争霸赛",
-        "zh_tw": "大鱸魚爭霸賽",
-        "ja": "Big Bass Fishing",
-        "es": "Big Bass Fishing"
+        "zh_tw": "大鱸魚爭霸賽"
     }
 }
