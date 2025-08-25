@@ -229,7 +229,7 @@ export const languages = {
         "opened_jackpot": "opened_jackpot",
         "no_data": null,
         "all": null,
-        "message_loading": "Loading",
+        "message_loading": "Memuat",
         "message_error_claim_expired": "Bonus berakhir. Tidak lagi tersedia. (%{errorCode})",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256 ",
         "pf_ header_merge_client_seed_single": "Gabungkan Seed Klien",

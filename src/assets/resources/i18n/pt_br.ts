@@ -198,7 +198,7 @@ export const languages = {
         "invalid_stake_level": "Nível de aposta inválido",
         "betChoice_shorten": "Opção de Aposta",
         "total_stake_shorten": "Aposta Total",
-        "text_big_wins": "Big Wins!",
+        "text_big_wins": "Grandes vitórias!",
         "text_small_win": "Pequenos Ganhos!",
         "message_balanced_betting_pool": "Fundo de Apostas Equilibrado",
         "refund": "Reembolso",

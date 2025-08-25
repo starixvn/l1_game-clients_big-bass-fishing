@@ -229,7 +229,7 @@ export const languages = {
         "opened_jackpot": "opened_jackpot",
         "no_data": null,
         "all": null,
-        "message_loading": "Loading",
+        "message_loading": "正在加载",
         "message_error_claim_expired": "奖金已过期，不再有效。 (%{errorCode})",
         "pf_header_server_seed_sha256_single": "服务器种子 SHA256",
         "pf_ header_merge_client_seed_single": "合并客户种子",
