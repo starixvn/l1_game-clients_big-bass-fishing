@@ -304,10 +304,6 @@ export const languages = {
         "game_icon_name": "Vua Câu Cá",
         "game_name": "Vua Câu Cá"
     },
-    "Olympub": {
-        "game_name": "Quán Bar Olympus",
-        "game_icon_name": "Quán Bar\nOlympus"
-    },
     "FreeSpinBonus": {
         "bet_level": "Mức Cược",
         "Claim_promotion_message": "Thật Tuyệt!",

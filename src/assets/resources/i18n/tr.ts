@@ -235,10 +235,6 @@ export const languages = {
         "pf_ header_merge_client_seed_single": "Müşteri Tohumunu Birleştir",
         "player": "Oyuncu"
     },
-    "Olympub": {
-        "game_name": "Olympub",
-        "game_icon_name": "Olympub"
-    },
     "BigBassFishing": {
         "game_name": "Büyük Bass Balıkçılığı",
         "game_icon_name": "Büyük Levrek\nBalıkçılığı"

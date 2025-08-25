@@ -304,10 +304,6 @@ export const languages = {
         "game_icon_name": "大鱸魚爭霸賽",
         "game_name": "大鱸魚爭霸賽"
     },
-    "Olympub": {
-        "game_name": "奧林酒館",
-        "game_icon_name": "奧林酒館"
-    },
     "FreeSpinBonus": {
         "bet_level": "投注等級",
         "Claim_promotion_message": "表現出色！",

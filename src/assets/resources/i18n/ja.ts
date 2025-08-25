@@ -304,10 +304,6 @@ export const languages = {
         "game_icon_name": "Big Bass\nFishing",
         "game_name": "Big Bass Fishing"
     },
-    "Olympub": {
-        "game_name": "Olympub",
-        "game_icon_name": "Olympub"
-    },
     "FreeSpinBonus": {
         "bet_level": "ベットレベル",
         "Claim_promotion_message": "素晴らしいパフォーマンスです！",
