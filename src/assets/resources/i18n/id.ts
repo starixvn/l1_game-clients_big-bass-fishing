@@ -275,7 +275,7 @@ export const languages = {
         "reach_max_win": "Anda mencapai Maksimal Menang",
         "real_mode": "Mode Nyata",
         "round_settle_msg": "SEMOGA BERUNTUNG!",
-        "scatter_odds_preview": "4 Simbol Scatter atau lebih akan memicu putaran gratis.",
+        "scatter_odds_preview": "%{numOfScatters}+ Scatters memicu  %{numOfSpins} FREE SPINS.",
         "show_msg_when_spin_desktop": "TAHAN SPASI ATAU KLIK SPIN",
         "show_msg_when_spin_phone": "KETUK ATAU TAHAN SPIN UNTUK MEMULAI",
         "start": "Mulai",
@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "Mode Turbo",
         "warning_trial_mode": "Main Nyata,\\nMenang Nyata",
         "win_tumble_msg": "SELAMAT!",
-        "you_win_free_spin": "Anda menang"
+        "you_win_free_spin": "Anda menang",
+        "you_have_won": "Anda Telah Menang",
+        "in_free_spins": "Dalam {value} Free Spins",
+        "free_spins_active": "Aktif",
+        "tumble_win": "Kemenangan Tumble",
+        "buy_free_spins": "Beli Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "Big Bass\nFishing",

@@ -275,7 +275,7 @@ export const languages = {
         "reach_max_win": "You reached the Max Win",
         "real_mode": "Real Mode",
         "round_settle_msg": "GOOD LUCK!",
-        "scatter_odds_preview": "4 or more Scatter symbols will trigger free spins.",
+        "scatter_odds_preview": "%{numOfScatters}+ Scatters trigger %{numOfSpins} FREE SPINS.",
         "show_msg_when_spin_desktop": "HOLD SPACE OR CLICK SPIN",
         "show_msg_when_spin_phone": "TAP OR HOLD SPIN TO BEGIN",
         "start": "Start",
@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "Turbo Mode",
         "warning_trial_mode": "Play Real,\\nWin Real",
         "win_tumble_msg": "CONGRATULATION!",
-        "you_win_free_spin": "You win"
+        "you_win_free_spin": "You win",
+        "you_have_won": "You Have Won",
+        "in_free_spins": "In {value} Free Spins",
+        "free_spins_active": "Active",
+        "tumble_win": "Tumble Win",
+        "buy_free_spins": "Buy Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "Big Bass\nFishing",

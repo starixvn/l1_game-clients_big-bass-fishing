@@ -1,4 +1,4 @@
 {
     "mainNamespace": "BigBassFishing",
-    "additionalNamespaces": ["Common", "BigBassFishing", "FreeSpinBonus"]
+    "additionalNamespaces": ["Common", "cascadingslot", "FreeSpinBonus"]
 }

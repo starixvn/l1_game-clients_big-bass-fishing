@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "Modo Turbo",
         "warning_trial_mode": "Juega de verdad,\nGana de verdad",
         "win_tumble_msg": "¡FELICIDADES!",
-        "you_win_free_spin": "Ganaste"
+        "you_win_free_spin": "Ganaste",
+        "you_have_won": null,
+        "in_free_spins": null,
+        "free_spins_active": "Activo",
+        "tumble_win": "Ganancia en Cascada",
+        "buy_free_spins": "Comprar Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "Big Bass\nFishing",

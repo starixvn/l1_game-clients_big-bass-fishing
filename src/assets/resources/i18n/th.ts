@@ -275,7 +275,7 @@ export const languages = {
         "reach_max_win": "คุณถึงยอดชนะสูงสุด",
         "real_mode": "โหมดจริง",
         "round_settle_msg": "โชคดี!",
-        "scatter_odds_preview": "สัญลักษณ์ Scatter 4 ตัวขึ้นไป จะเปิดใช้โบนัสฟรีสปิน",
+        "scatter_odds_preview": "%{numOfScatters}+ Scatters กระตุ้น FREE SPINS%{numOfSpins} ครั้ง",
         "show_msg_when_spin_desktop": "กดที่สเปคบาร์หรือคลิกสปิน",
         "show_msg_when_spin_phone": "แตะหรือกดค้างเพื่อเริ่มใหม่",
         "start": "เริ่ม",
@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "โหมด Turbo",
         "warning_trial_mode": "เล่นจริง\\nชนะจริง",
         "win_tumble_msg": "ขอแสดงความยินดี!",
-        "you_win_free_spin": "คุณชนะ"
+        "you_win_free_spin": "คุณชนะ",
+        "you_have_won": "คุณชนะแล้ว!",
+        "in_free_spins": "ใน {value} Free Spins",
+        "free_spins_active": "กำลังใช้งานอยู่",
+        "tumble_win": "ชนะ Tumble",
+        "buy_free_spins": "ซื้อ Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "Big Bass\nFishing",

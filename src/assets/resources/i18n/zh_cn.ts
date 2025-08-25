@@ -275,7 +275,7 @@ export const languages = {
         "reach_max_win": "您达到了最大胜利",
         "real_mode": "真钱模式",
         "round_settle_msg": "祝你好运！",
-        "scatter_odds_preview": "出现4个或更多派彩符号即可触发免费旋转。",
+        "scatter_odds_preview": "%{numOfScatters}+ Scatters触发 %{numOfSpins} FREE SPINS。",
         "show_msg_when_spin_desktop": "按住空格键或点击旋转",
         "show_msg_when_spin_phone": "点击或按住旋转开始",
         "start": "开始",
@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "涡轮模式",
         "warning_trial_mode": "真玩，\\n赢真钱",
         "win_tumble_msg": "恭喜！",
-        "you_win_free_spin": "您赢得"
+        "you_win_free_spin": "您赢得",
+        "you_have_won": "你赢了",
+        "in_free_spins": "在 {value} Free Spins",
+        "free_spins_active": "活跃",
+        "tumble_win": "连续中奖",
+        "buy_free_spins": "購買 Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "大鱸魚爭霸賽",

@@ -241,7 +241,7 @@ export const languages = {
         "auto_spin_left": "Lượt Quay Tự Động Còn Lại",
         "bet_level": "Mức Cược",
         "bet_level_shorten": "Mức Cược",
-        "bet_multiplier_x": "Hệ Số Cược 20X",
+        "bet_multiplier_x": "Hệ Số Cược 20x",
         "big_win": "Thắng Lớn",
         "coin_value": "Giá trị xu",
         "coin_value_shorten": "Giá trị xu",
@@ -275,7 +275,7 @@ export const languages = {
         "reach_max_win": "Bạn Đã Đạt Mức Tiền Thắng Tối Đa",
         "real_mode": "Chơi Thật",
         "round_settle_msg": "CHÚC MAY MẮN!",
-        "scatter_odds_preview": "4 biểu tượng Scatter trở lên sẽ kích hoạt vòng quay miễn phí.",
+        "scatter_odds_preview": "%{numOfScatters}+ Scatters kích hoạt %{numOfSpins} FREE SPINS.",
         "show_msg_when_spin_desktop": "BẤM QUAY HOẶC GIỮ PHÍM SPACE",
         "show_msg_when_spin_phone": "BẤM HOẶC GIỮ NÚT QUAY ĐỂ BẮT ĐẦU",
         "start": "Bắt Đầu",
@@ -293,7 +293,12 @@ export const languages = {
         "turbo_mode": "Siêu Tốc",
         "warning_trial_mode": "Chơi Thật,\\nThắng Thật",
         "win_tumble_msg": "CHÚC MỪNG!",
-        "you_win_free_spin": "Bạn đã thắng"
+        "you_win_free_spin": "Bạn đã thắng",
+        "you_have_won": "Bạn Đã Chiến Thắng",
+        "in_free_spins": "Trong {value} Free Spins",
+        "free_spins_active": "Đang Hoạt Động",
+        "tumble_win": "Thắng Nổ Sập",
+        "buy_free_spins": "Mua Free Spins"
     },
     "BigBassFishing": {
         "game_icon_name": "Vua Câu Cá",
